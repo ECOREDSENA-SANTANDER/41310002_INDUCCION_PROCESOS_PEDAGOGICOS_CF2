@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Ruta activa de aprendizaje y evaluación',
+    descripcionCurso:
+      'Aquí encontrará la descripción de los principios pedagógicos que guían la formación profesional integral, destacando la importancia de la didáctica, la evaluación continua y el desarrollo de competencias tanto técnicas como humanas. Además, resalta la relevancia de la innovación, el emprendimiento y la responsabilidad social en los procesos educativos del SENA, que se apoyan en métodos y recursos didácticos para fortalecer la enseñanza y el aprendizaje en el aula.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,13 +40,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Fundamentos pedagógicos en todo proceso de enseñanza y aprendizaje',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Formación para el trabajo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Didáctica: disciplina clave en el proceso de enseñanza-aprendizaje',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +61,48 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Métodos y recursos didácticos en el SENA',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Guías de aprendizaje',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Currículo y evaluación ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Estructura curricular SENA',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Aspectos para destacar de SENA',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Orientaciones sobre la evaluación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Proceso de evaluación',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Planes de mejoramiento',
+            hash: 't_3_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -62,12 +112,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -78,11 +128,11 @@ export default {
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
       },
-      {
+      /*{
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
+      },*/
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
@@ -102,27 +152,57 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.1.	Formación para el trabajo	',
+      referencia:
+        'Alvarado, Sara Victoria, Ospina, Héctor Fabio, Botero, Patricia, & Muñoz, Germán. (2008). Las tramas de la subjetividad política y los desafíos a la formación ciudadana en jóvenes. Revista argentina de sociología, 6(11), 19-43. Recuperado en 30 de septiembre de 2024.',
+      tipo: 'Articulo',
+      link:
+        'https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1669-32482008000200003&lng=es&tlng=en.',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.	Métodos y recursos didácticos en el SENA	',
+      referencia:
+        'Molina Flores, B. V., Añorga Morales, Julia., Santiesteban Llerena, M. Luisa., & e-libro, Corp. (2012). Un modelo pedagógico para la superación político ideológica. La Habana: Universidad de Ciencias Pedagógicas "Enrique José́ Varona" ',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/86159',
+    },
+    {
+      tema: '3.	Currículo y evaluación 	',
+      referencia:
+        'Diseño curricular para la formación metodológica de asesores de empresa con base a competencias laborales. (2002). Bogotá SENA.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000071420',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aprendizaje autónomo',
+      significado:
+        'Proceso donde el estudiante asume la responsabilidad de identificar y desarrollar sus propias estrategias de aprendizaje.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Competencias',
+      significado:
+        'Conjunto de habilidades, conocimientos y actitudes que un aprendiz debe desarrollar para desempeñarse en un entorno productivo.',
     },
+    {
+      termino: 'Currículo',
+      significado:
+        'Estructura que organiza los contenidos, tiempos y recursos para guiar el proceso educativo.',
+    },
+    {
+      termino: 'Evaluación formativa',
+      significado:
+        'Tipo de evaluación que se aplica continuamente durante el proceso pedagógico, proporcionando retroalimentación para mejorar el aprendizaje.',
+    },
+    {
+      termino: 'Formación Profesional Integral (FPI)',
+      significado:
+        'Modelo educativo del SENA que busca formar personas competentes en el ámbito técnico y humano.',
+    },
+    // Continúa con el mismo formato para los demás términos...
   ],
   referencias: [
     {
@@ -136,13 +216,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          cargo: 'Responsable del ecosistema',
+          centro: 'Dirección general',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,9 +230,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Diana Rocío Possos Beltrán',
+          cargo: 'Experta temática',
+          centro:
+            'Equipo de Adecuación Didáctica y Gráfica de Recursos Educativos - Regional Risaralda',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Equipo de Adecuación Didáctica y Gráfica de Recursos Educativos - Regional Risaralda',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -160,24 +252,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñador web',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <i>full-stack</i>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora <i>full-stack</i> junior',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -185,24 +277,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: '--',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -213,25 +295,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

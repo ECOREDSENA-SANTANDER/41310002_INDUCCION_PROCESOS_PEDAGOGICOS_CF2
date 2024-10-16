@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 5%
+    right: 40%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    left: -13%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    left: 5%
 
 
 @keyframes float1
@@ -17,3 +27,264 @@
 
   100%
     transform: translateY(0px)
+.banner-principal__img 
+  padding-bottom: 0 !important;
+.banner-principal__img img
+  width: 72%
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: $color-sistema-texto !important  
+
+.titulo-principal__numero
+    background-color: $color-acento-contenido  !important
+
+
+.banner-principal .tarjeta
+  animation: gradient-animation 5s infinite ease-in;
+ 
+
+@keyframes gradient-animation 
+    0% 
+        background:  url('../assets/curso/portada/fondo-banner-principal.svg'),linear-gradient(120deg, #FF9A09, #FFD69B);
+       
+   
+    100% 
+        background: url('../assets/curso/portada/fondo-banner-principal.svg'), linear-gradient(200deg,#FF9A09, #FFD69B);
+
+    
+.color-sistema-texto
+  color: $color-sistema-texto !important
+
+.bg1
+  background-color: #CBFAF4
+.bg2
+  background-color: #CBFAF4
+  padding: 5px 30px
+  width: fit-content
+  text-align: center
+.bg3
+  background-color: #FFF3F1
+  padding: 25px 20px
+.bg4
+    background: #fff
+    border-radius: 30px
+.bg5
+  background-color: #FCB071
+.bg6
+    background: #FFF3F1
+.bgimg1
+  background-image: url('../assets/curso/temas/tema1/img10.svg');
+  background-repeat: no-repeat
+  background-position: center 
+  background-color: $color-secundario
+  padding: 20px
+  border-radius: 10px
+  background-size: cover
+.bgimg2
+    background-image: url('../assets/curso/temas/tema1/img14.svg') !important;
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    border-radius: 20px
+    height: 380px
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+.bgimg4
+    background-image: url('../assets/curso/temas/tema2/img2.svg') !important;
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: left 
+    width: fit-content
+    padding: 5px 20px
+.bgimg5
+    background-image: url('../assets/curso/temas/tema2/img2.svg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: fit-content;
+    padding: 0px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+.bgimg6
+    background-image: url('../assets/curso/temas/tema2/img9.svg') !important;
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    height: 350px !important
+.br1
+  padding: 10px 20px
+  border: 2px solid $color-secundario
+
+.img-bloque
+  width: 56.5%;
+  position: relative;
+  top: -45px;
+  margin: auto;
+
+.w-10
+  width: 10%
+.pr-0-cus
+  padding-right: 0 !important
+.pl-cus
+  padding-left: 65px
+.br-0
+  border-radius: 0 !important
+.list-icons
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+
+/*CUSTOM COMPONENTS*/
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FDC3B9
+  border-radius: 10px
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris,
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #CBFAF4
+  border-radius: 10px
+.linea-tiempo-d__item__dots:after
+    border-left: 5px dotted #FC8775;
+.linea-tiempo-d__item__content__title
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto !important
+.tabs-c__tab.tabs-c__tab--active span
+  font-weight: bold
+.tabs-c__tab 
+    border-bottom: 4px solid $color-secundario
+    
+.tabs-c
+    border-bottom: 0;
+.tabs-c__content-item
+  background-color: #FEEEE2
+  position: relative;
+  top: -15px;
+  z-index: 0;
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  z-index: 1;
+
+.lista-ul--color.color-secundario li > i:first-of-type
+    color: $color-secundario;
+.bloque-texto-b.color-acento-botones:before 
+    background-color: #CBFAF4;
+.bloque-texto-b:before 
+    top: 10%;
+    bottom: 25%;
+.bloque-texto-f__comillas i.color-primario
+    color: $color-primario;
+.cajon.color-acento-botones
+    background-color: $color-adicional-1
+.cajon.color-acento-botones:before 
+    background-color: $color-acento-botones;
+.cajon.color-acento-contenido 
+    background-color: #FEDBD5;
+
+
+.slyder-f__btn i  
+  border-radius: 50%;
+  background: $color-acento-botones;
+  font-size: 30px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  z-index: 1;
+  color: $color-sistema-texto
+
+.lista-ol--cuadro__vineta 
+    width: 24px;
+    color: $color-sistema-texto
+    border-radius: 24px
+    font-weight: bold
+.lista-ol--separador li, .lista-ul--separador li 
+    border-bottom: solid 1px $color-secundario !important
+.tarjeta--container.card-cus > .tarjeta:last-child    
+  border-radius: 0 !important
+.tarjeta.color-adicional-1
+  background-color: $color-adicional-1
+.tarjeta.color-adicional-2
+  background-color: #EAFDFB
+  border-radius: 10px;
+.tarjeta--orange
+  background-color: #FFEBC1 !important
+.tarjeta--orange.acordion__activo
+  background-color: #FEE7D4 !important
+.acordion__accion__btn--a
+  background-color: #92E8DB
+  color: $color-sistema-texto !important
+
+.tabs-a__tab 
+    background-color: $color-acento-contenido
+.img-infografica__item, .img-infografica-b__item 
+    width: 5%;
+
+
+
+
+/*Media Queries*/  
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important 
+  .img-bloque
+    width: 75%;
+  .bgimg2 
+    height: auto;
+    display: block;
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+  .list-icons
+    flex-direction: column
+    justify-content: start
+
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em  !important
+  .h-card
+    height: auto;
+  .bloque-texto-g
+    padding-top: 20px !important;
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px !important
+  .bgimg2 
+    height: auto;
+    display: block;
+  .bgimg4
+    background-size: cover 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  .w-img-cus
+    width: 75%
