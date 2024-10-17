@@ -5,46 +5,173 @@
     .titulo-principal.color-acento-contenido.mb-5
       .titulo-principal__numero
         span 1
-      h1 Concepto de “Educación”
+      h1 Fundamentos pedagógicos en todo proceso de enseñanza y aprendizaje
     
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img.bg1
-        img.img-bloque.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img1.png', alt='')
+        img.img-bloque-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img1.png', alt='')
         
       .bloque-texto-g__texto.p-4
-        p.mb-3 En esta primera parte del tema, se organizará en dos apartados claramente definidos, cada uno enfocado en aspectos esenciales para una comprensión integral de los contenidos.
-        p.mb-0 En el primer apartado, se explorarán los conceptos teóricos y prácticos que fundamentan el marco general de la educación. En el segundo apartado, se profundizará en las teorías pedagógicas que orientan la labor docente, brindando al estudiante herramientas y conocimientos clave para desarrollar una visión crítica y fundamentada de su rol como educador; de esta manera, se asegurará un enfoque integral que conecte tanto la teoría como la práctica en el ejercicio de la enseñanza.
+        p.mb-3 La formación integral es un proceso educativo teórico-práctico que abarca diversas dimensiones, a través de las cuales los estudiantes adquieren y desarrollan de forma continua conocimientos, habilidades y competencias. Al mismo tiempo, fomentan y asumen valores y actitudes esenciales para su desarrollo humano y su participación activa, crítica y creativa en los ámbitos social y productivo.
+        p.mb-0  En el SENA, este proceso es conocido como Formación Profesional Integral (FPI), donde dos de sus principios fundamentales son la integralidad y la formación permanente (Estatuto de la Formación Profesional Integral, 1997, p. 16).
+   
+    .titulo-sexto.color-secundario
+      h5 Figura 1.
+      span
+        |  Dos de los principios fundamentales de la Formación Profesional Integral (FPI)
+    img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img2.png', alt='La figura presenta dos conceptos clave: Integralidad y Formación permanente. El primero se refiere a una formación equilibrada entre lo tecnológico y lo social, donde el obrar tecnológico se relaciona con el contexto social, económico, político y ético. El segundo concepto, Formación permanente, señala que las personas aprenden a lo largo de toda su vida mediante su interacción con los demás y el entorno productivo, sin distinción de edad o género. ')
+    img.mb-5.d-sm-block.d-lg-none(src='@/assets/curso/temas/tema1/img26.svg', alt='La figura presenta dos conceptos clave: Integralidad y Formación permanente. El primero se refiere a una formación equilibrada entre lo tecnológico y lo social, donde el obrar tecnológico se relaciona con el contexto social, económico, político y ético. El segundo concepto, Formación permanente, señala que las personas aprenden a lo largo de toda su vida mediante su interacción con los demás y el entorno productivo, sin distinción de edad o género. ')
+    p.mb-5 Asimismo, la FPI promueve el desarrollo de los cuatro pilares de la competencia, tres tradicionales y uno emergente (El modelo pedagógico de la FPI en el enfoque para el desarrollo por competencias y el aprendizaje por proyectos, 2014):
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta.bgimg6.p-4.mb-cus
+          .row.justify-content-center.my-4
+            .col-sm-12.col-md-6.col-lg-8
+              img.w-img-cus.m-auto(src='@/assets/curso/temas/tema1/img3.png', alt='')
+          h4.text-center.mb-3 1. Aprender a ser
+          p.mb-0.text-center Focalizado en el desarrollo de actitudes que respeten la dignidad humana y promuevan la solidaridad con los demás y el entorno.
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta.bgimg6.p-4.mb-cus
+          .row.justify-content-center.my-4
+            .col-sm-12.col-md-6.col-lg-8
+              img.w-img-cus.m-auto(src='@/assets/curso/temas/tema1/img4.png', alt='')
+          h4.text-center.mb-3 2. Aprender a aprender
+          p.mb-0.text-center Dirigido al fomento de la originalidad, la creatividad, el pensamiento crítico, el aprendizaje por procesos y la formación continua.
 
-    .tarjeta--container.row.mb-5
-      .col-sm-12.col-lg-6.tarjeta.color-primario.p-5.mb-cus
-        .row.justify-content-start.align-items-center.mb-4
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta.bgimg6.p-4.mb-cus
+          .row.justify-content-center.my-4
+            .col-sm-12.col-md-6.col-lg-8
+              img.w-img-cus.m-auto(src='@/assets/curso/temas/tema1/img5.png', alt='')
+          h4.text-center.mb-3 3. Aprender a hacer
+          p.mb-0.text-center Integra ciencia, tecnología y técnica para aplicarlas en el desempeño dentro del sector productivo.
+
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta.bgimg6.p-4.mb-cus
+          .row.justify-content-center.my-4
+            .col-sm-12.col-md-6.col-lg-8
+              img.w-img-cus.m-auto(src='@/assets/curso/temas/tema1/img6.png', alt='')
+          h4.text-center.mb-3 4. Aprender a convivir
+          p.mb-0.text-center Enfatiza la participación en proyectos comunes, promoviendo la resolución de conflictos y la cooperación (Delors, 1996).
+    .cajon.color-acento-contenido.p-4.mb-4
+      p.mb-0 El aprendizaje autónomo está intrínsecamente relacionado con los estilos y las estrategias de aprendizaje, ya que su desarrollo depende en gran medida de que el estudiante identifique la forma en que aprende de manera más eficaz.
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1 Formación para el trabajo
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img8.png')
+      .col-sm-12.col-lg-7
+        .row.mb-3
           .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/tema1/img2.svg')
-          .col-sm-12.col-lg-8
-            h3.bg2.mb-0 Educación
-        h5 Conceptualización y relaciones:
-        ul.lista-ul--color.color-secundario
-          li.d-flex
-            i.fas.fa-chalkboard-teacher
-            span Abordará la caracterización de la educación a partir de su definición y sus interrelaciones con la cultura, la sociedad y el contexto. 
-          li.d-flex
-            i.fas.fa-chalkboard-teacher
-            span Se enfatizará que la educación no es un fenómeno aislado, sino que ocupa un lugar central en la sociedad, interactuando de manera dinámica con la política, la economía, la familia y otros sistemas socioculturales.
-           
-      .col-sm-12.col-lg-6.tarjeta.color-secundario.p-5
-        .row.justify-content-start.align-items-center.mb-4
+            img(src='@/assets/curso/temas/tema1/img9.svg')
+          .col-sm-12.col-lg-10
+            p.mb-0 Es un proceso educativo orientado a capacitar a las personas en competencias técnicas, habilidades prácticas y conocimientos especializados, necesarios para desempeñar eficazmente una actividad productiva, oficio, arte o empleo. Los estudiantes que participan en este tipo de formación no solo tienen la oportunidad de incorporarse al sector productivo mediante un empleo formal, sino que también pueden fortalecer su autonomía al desarrollar y ejecutar un plan de negocio propio.
+        .br1
+          p.mb-0 De este modo, se busca que los estudiantes generen en el futuro ingresos sostenibles, tanto para ellos como para sus familias, mientras se convierten en ciudadanos activos que contribuyen al desarrollo socioeconómico de su país.
+    p.mb-5 Los principios fundamentales de la formación para el trabajo son:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-8
+        .titulo-sexto.color-secundario
+          h5 Figura 2.
+          span
+            |  Principios de la formación para el trabajo
+        figure
+          img.mb-2(src='@/assets/curso/temas/tema1/img11.svg', alt='La figura presenta cuatro principios clave en el enfoque educativo. En primer lugar, la pertinencia asegura que la formación esté alineada con las realidades económicas y sociales del país. Luego, se destaca la importancia de la calidad a través de un enfoque pedagógico que garantice una formación integral. A continuación, la flexibilidad permite adaptar la oferta educativa mediante diversos recursos y modalidades, como jornadas nocturnas y programas para jóvenes y adultos en modalidades presenciales, a distancia o virtuales. Finalmente, la cobertura se enfoca en extender el acceso a las poblaciones más alejadas y con menos recursos.')
+          figcaption Fuente: SENA
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img13.png')
+    p.mb-5 La formación del SENA tiene como objetivo principal capacitar a los estudiantes no solo para integrarse al sector productivo, sino también para contribuir al desarrollo de sus comunidades, a través de programas enfocados en el emprendimiento, los aprendices son motivados a crear proyectos que respondan a las necesidades locales, promoviendo la sostenibilidad y la innovación. El SENA utiliza su proceso de formación por competencias y proyectos como una herramienta clave para identificar esas necesidades y transformarlas en oportunidades de negocio.
+    .bgimg4.mb-3
+      h3.pt-3 El programa de emprendimiento del SENA se complementa con:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img15.png')
+      .col-sm-12.col-lg-7.mb-5
+        .row.mb-3
           .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/tema1/img3.svg')
-          .col-sm-12.col-lg-8
-            h3.bg2.mb-0 Pedagogía
-        h5 Teorías y modelos:
+            img(src='@/assets/curso/temas/tema1/img16.svg')
+          .col-sm-12.col-lg-10
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-chalkboard-teacher
+                span Unidades productivas creadas mediante la estrategia de formación por proyectos.
+              li.d-flex
+                i.fas.fa-chalkboard-teacher
+                span Financiamiento por medio del fondo emprender (capital semilla no reembolsable) y otras fuentes de financiación.
+              li.d-flex
+                i.fas.fa-chalkboard-teacher
+                span Procesos de acompañamiento, asesoría y fortalecimiento en la puesta en marcha de las empresas creadas.
+        .br1
+          p.mb-0 Los proyectos que resultan de este proceso son sostenibles y tecnológicos, ofreciendo beneficios tanto a la comunidad como al entorno, además, los estudiantes cuentan con apoyo para crear unidades productivas, obtener financiamiento mediante el Fondo Emprender y recibir asesoría continua para fortalecer sus ideas empresariales.
+
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.my-5
+      .bloque-texto-g__img.bg1
+        img.img-bloque.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img17.png', alt='')
+        
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La globalización y los tratados de libre comercio han abierto nuevas oportunidades en mercados internacionales para productos colombianos como el café, minerales y flores, llamados “commodities”. Sin embargo, el reto para los aprendices del SENA es innovar, crear empresas que ofrezcan productos y servicios que puedan competir a nivel global. El objetivo es que los estudiantes no solo se limiten a ser parte de un mercado local, sino que se conviertan en exportadores y empresarios capaces de generar un impacto en mercados externos, esto fomenta el desarrollo económico del país y posiciona a los estudiantes como futuros líderes empresariales. 
+
+    p.mb-5 Por otro lado, el SENA también se enfoca en el desarrollo humano como parte integral de su formación. La institución no solo busca formar trabajadores competentes, sino también personas con valores éticos que contribuyan a la sociedad, a través de una formación basada en principios como el respeto, la responsabilidad y la solidaridad, los estudiantes desarrollan habilidades para convivir en comunidad y participar activamente en su entorno. El desarrollo humano dentro de la formación SENA promueve una mirada humanizadora que prioriza el compromiso de los aprendices con su comunidad y con los desafíos sociales y ambientales que enfrentan, fomentando un crecimiento personal y colectivo.
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 Desarrollo Humano
+
+    .row.mb-5.align-items-center
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img19.png')
+      .col-sm-12.col-lg-8
+        p.mb-3 El desarrollo humano en el SENA es un pilar fundamental de su formación, ya que busca que los aprendices no solo se capaciten como trabajadores, sino que también se formen como seres humanos comprometidos con su entorno.
+        .tarjeta--container.card-cus.row.mb-0
+          .col-sm-12.col-lg-7.tarjeta.color-adicional-1.p-5.align-content-center.br-0
+            p.mb-0 A través de la Formación Profesional Integral, se fomenta la reflexión sobre el papel de la familia y la comunidad, promoviendo valores éticos universales como el respeto, la responsabilidad y la solidaridad. El objetivo es que los estudiantes desarrollen competencias críticas, creativas y participativas que les permitan convivir de manera armónica, generar consensos y actuar de manera justa en los contextos productivos y sociales, fortaleciendo su compromiso con el bienestar colectivo y el entorno natural.
+          .col-sm-12.col-lg-5.tarjeta.d-none.d-lg-block.align-content-center.p-0.m-0
+            img(src='@/assets/curso/temas/tema1/img20.png', alt='')
+
+    p.mb-5 Algunos de los programas que lleva a cabo el SENA con base en el desarrollo humano integral son:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img21.png', alt='')
+      .col-sm-12.col-lg-6
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-chalkboard-teacher
-            span Explorará las bases epistemológicas de la profesión docente mediante un análisis de las principales teorías y modelos pedagógicos que han coexistido en las últimas décadas. 
+            span Cadena de formación.
           li.d-flex
             i.fas.fa-chalkboard-teacher
-            span Cada apartado busca dar claridad con un análisis del campo educativo y pedagógico que sustenta al SENA, destacando su relevancia como entidad de clase mundial y su papel clave en la formación para el trabajo, tanto a nivel nacional como global.
+            span Empleabilidad.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Emprendimiento innovador.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Formación especializada y actualización tecnológica del recurso humano.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Innovación y desarrollo tecnológico productivo.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Integración con la educación media.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Internacionalización.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Reconocimiento de cursos y programas.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Redes de entidades de formación para el trabajo.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span Unidades de investigación aplicada en las empresas.
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 Aprendizaje significativo 
+    p.mb-5 El aprendizaje significativo, basado en las ideas de Johann Heinrich Pestalozzi y Joseph Novak, se fundamenta en la integración armoniosa de las facultades cognitivas, emocionales y físicas del educando. Esto implica que el conocimiento adquirido debe ser relevante para el estudiante y movilizar tanto su capacidad de pensamiento crítico (cabeza), su motivación e interés (corazón), y su capacidad para interactuar activamente con el entorno (manos). Este enfoque integral empodera al individuo y promueve un desarrollo personal y académico robusto.
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
         .bloque-texto-b.color-acento-botones.p-4
@@ -52,110 +179,89 @@
             .align-items-start
               i.fas.fa-quote-left
             .d-block
-              h4.d-block.mt-3 Jamás acepté que la práctica educativa debería limitarse sólo a la lectura de la palabra, a la lectura del texto, sino que debería incluir la lectura del contexto, la lectura del mundo.
-              p Paulo Freire
+              h4.d-block.mt-3 El aprendizaje significativo subyace a la integración constructiva entre pensamiento, sentimiento y acción lo que conduce al engrandecimiento (“empowerment”) humano.
+              p - Joseph Novak
             .align-content-end.mb-2
               i.fas.fa-quote-right
-    p.text-center.mb-5 Los desafíos sociales y éticos que enfrenta la humanidad son profundos y destructivos.
+    
+    
+    
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-8
+        .row.justify-content-start.align-items-center.mb-5
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img.w-75(src='@/assets/curso/temas/tema1/img18.svg')
+          .col-sm-12.col-lg-8
+            h4.mb-0.fix-title El pensamiento crítico y democrático 
+        p.mb-5 Se concibe como un proceso multidimensional que involucra análisis reflexivos y acciones orientadas a la transformación social, abarcando desde lo individual hasta lo colectivo y de lo local a lo global. En la propuesta educativa del SENA, se articulan tres conceptos clave: la educación para el desarrollo, la formación ciudadana, y la responsabilidad social. Estos pilares buscan formar ciudadanos conscientes, comprometidos con su contexto y corresponsables de su impacto social y ético en diversas esferas de la vida.
+
+        .row.justify-content-start.align-items-center.mb-5
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img.w-75(src='@/assets/curso/temas/tema1/img18.svg')
+          .col-sm-12.col-lg-8
+            h4.mb-0.fix-title Aprendizaje colaborativo
+        p.mb-5 El aprendizaje colaborativo fomenta la construcción conjunta de conocimiento a través del trabajo en grupo, promoviendo la equidad y el desarrollo de habilidades sociales, este enfoque potencia la solidaridad, la cooperación y la responsabilidad, tanto individual como colectiva, generando un entorno donde se privilegian el razonamiento crítico y el cuestionamiento constructivo.
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img22.png')
+
+   
+
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 Resolución de problemas
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema1/img4.png')
+        img(src='@/assets/curso/temas/tema1/img23.png')
+      .col-sm-12.col-lg-7
+        p.mb-0 La resolución de problemas es un componente central en los procesos de enseñanza-aprendizaje, donde los estudiantes enfrentan no solo conflictos, sino también situaciones profesionales que exigen el uso de habilidades cognitivas y de desempeño desarrolladas en su formación integral. En el SENA, se promueven técnicas didácticas activas como el estudio de caso y el aprendizaje basado en problemas (ABP), que facilitan el desarrollo de competencias esenciales como la planificación, el pensamiento crítico, la autonomía y el trabajo colaborativo. Estas metodologías preparan al estudiante para abordar y resolver de manera eficaz los desafíos tanto en el ámbito laboral como personal.
+   
+   
+   
+   
+   
+   
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Didáctica: disciplina clave en el proceso de enseñanza-aprendizaje
+
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img24.png')
       .col-sm-12.col-lg-7
         .row.mb-3
           .col-sm-12.col-lg-2.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema1/img5.svg')
+            img(src='@/assets/curso/temas/tema1/img25.svg')
           .col-sm-12.col-lg-10
-            p.mb-0 Si bien el aula no puede cambiar el mundo de manera instantánea, tiene el potencial de ser un espacio donde se inicien pequeñas transformaciones, sí, pueden fomentar en los estudiantes una mayor empatía y respeto hacia los demás, independiente de sus diferencias o cosmovisiones, por tanto se propone, que el acto educativo no sea visto como un proceso lineal ni determinista, sino como un fenómeno dinámico y transformador, capaz de adaptarse a la complejidad del entorno y las interacciones humanas.
+            p.mb-0 La didáctica, a menudo malinterpretada como sinónimo de juegos o actividades dinámicas en clase, es en realidad una disciplina mucho más extensa y compleja, esencial en el proceso de enseñanza-aprendizaje. Lejos de limitarse a la mera implementación de “juegos didácticos”, esta abarca la totalidad de los elementos que intervienen en el aula cuando se desarrolla el proceso práctico entre profesores y estudiantes.
         .br1
-          p.mb-0 En este sentido, la educación se convierte en una herramienta poderosa para la transformación de una humanidad en crisis. Como señala el filósofo y sociólogo Edgar Morin (2008):
-    .bloque-texto-f.color-acento-botones.pt-4.px-5.mb-5
-      .bloque-texto-f__comillas
-        i.fas.fa-quote-left.color-primario
-        i.fas.fa-quote-right.color-primario
-      .bloque-texto-f__texto.text-center.mb-4
-        .d-block.mb-4
-          img.w-10(src='@/assets/curso/temas/tema1/img7.svg')
-        .d-block
-          p.mb-0 El papel de la educación será decisivo para abrirnos a la incertidumbre de lo improbable y desarrollar el pensamiento nuevo que nos permita inclinar la balanza hacia la metamorfosis y evite la aniquilación, que fortalezca el poder de comprensión y debilite el de manipulación, que fortalezca la civilidad y la democracia (p.34).
-      .bloque-texto-f__autor.mb-3
-        h5.mb-3 Edgar Morin
-      .bloque-texto-f__avatar
-        .bloque-texto-f__avatar__img
-          img(src='@/assets/curso/temas/tema1/img6.png')
-    p.mb-4 Esta perspectiva resalta la capacidad de la educación para no solo formar sujetos críticos, sino también para incidir en la creación de una sociedad más democrática, civilizada y equitativa.
+          p.mb-0 A diferencia de la pedagogía, que se ocupa de la reflexión y análisis del proceso educativo en su conjunto, la didáctica se enfoca exclusivamente en los métodos y técnicas que se aplican dentro del aula para facilitar el aprendizaje. Desde una perspectiva histórica, el término se remonta al siglo XVII, introducido por Ratke y consolidado por Comenio en su obra “Didáctica Magna”, que sentó las bases de la disciplina como un referente global.
+
+    p.mb-5 En su definición moderna, la didáctica se considera una disciplina pedagógica de naturaleza práctica y normativa, cuyo objetivo central es perfeccionar las técnicas de enseñanza. 
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-10
-        .titulo-sexto.color-secundario
-          h5 Figura 1.
-          span
-            |  Concepto de educación
-        img(src='@/assets/curso/temas/tema1/img8.svg', alt='El concepto de educación se presenta en un diagrama que relaciona varias ideas clave. Primero, se menciona que el término “educación” puede variar según el contexto histórico y cultural, lo que dificulta una definición única y normativa. En segundo lugar, se destaca su origen en el término latino educare, que significa “criar” o “nutrir”, reflejando su función esencial. Luego, se explica que la educación ayuda al ser humano a adaptarse a su entorno social, cultural y familiar, favoreciendo su desarrollo y supervivencia. Finalmente, se resalta que la educación busca guiar y potenciar las capacidades internas del individuo, promoviendo su crecimiento integral.')
-    .row.justify-content-center.mb-5
-      .col-lg-12
-        .cajon.color-acento-botones.px-5.py-4
-          p.mb-0 La educación es un proceso social mediado por prácticas comunicativas que facilitan la construcción de significados compartidos y el desarrollo de competencias necesarias para una sociedad, actuando como una herramienta clave para mantener o transformar las estructuras sociales (Gaitán, 2008; ICFES, 1995).
-    p.mb-5 Así mismo, la educación se entiende como un proceso en constante construcción, influenciado por factores sociales, históricos, culturales e ideológicos. Este proceso se basa en la interacción entre educación, conocimiento y sociedad, y se desarrolla a lo largo de la vida, mediante la reflexión crítica sobre las acciones. A través de esta toma de conciencia, el conocimiento no solo transforma al individuo, sino también su entorno (Barnett, 2001).
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema1/img9.png')
-      .col-sm-12.col-lg-7
-        .bgimg1.mb-3
-          h5 Reflexión
-          p.mb-0 Piense en cómo definiría la educación basándose en su propia experiencia. ¿Coincide su perspectiva con las ideas mencionadas? Reflexionar sobre otras definiciones de educación podría ayudar a repensar su enfoque educativo.
-        .br1
-          h5 Dato interesante:
-          p.mb-0 ¿Sabía que Paulo Freire (1921-1999), destacado educador brasileño, es reconocido como uno de los mayores exponentes de la pedagogía crítica? Su enfoque pedagógico planteaba un proyecto social alternativo y utópico.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        p.mb-3 La educación global actual, está marcada por un replanteamiento de los paradigmas tradicionales, influenciada por factores históricos, económicos y políticos, por ello los expertos destacan la importancia de que los docentes reflexionen sobre la creatividad, la calidad de la enseñanza y la estandarización en las escuelas. Es crucial que tanto docentes como estudiantes cuestionen las lógicas de la escolarización moderna y exploren nuevas formas de entender la educación, lo que abre la puerta a la necesidad de un nuevo paradigma educativo que responda a los retos contemporáneos.
-        p.mb-0.bg3 En los últimos años, los gobiernos han centrado sus políticas en fortalecer la educación, impulsando nuevas leyes y planes de desarrollo en colaboración con organismos internacionales como la UNESCO, la OEA, el Banco Mundial y el BID. El objetivo común es ofrecer una educación de mayor calidad que contribuya al bienestar y desarrollo de la humanidad. A continuación, se analizarán algunas de las políticas más relevantes en este ámbito.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema1/img11.png')
+        .bgimg1.p-4
+          p.mb-0 Se trata de un conjunto sistemático de principios, normas y recursos que todo educador debe dominar para guiar de manera efectiva el aprendizaje de sus estudiantes.
+    p.mb-0 Esto implica no solo la transmisión de conocimientos, sino también la planificación adecuada de objetivos educativos, competencias y logros. En última instancia, la didáctica busca proporcionar a los profesores las herramientas necesarias para orientar a los estudiantes de manera clara y efectiva en su proceso formativo.
 
-    Separador
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1  Políticas y leyes educativas en Colombia
-    p.mb-5 Para garantizar una educación de calidad y accesible para todos, las leyes en Colombia sobre la educación han establecido un marco normativo que regula su funcionamiento y desarrollo. Por tal razón, ahondaremos en el tema.
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-8
-        .titulo-sexto.color-secundario
-          h5 Figura 2.
-          span
-            |   Políticas educativas vigentes
-        img(src='@/assets/curso/temas/tema1/img12.svg', alt='El esquema presenta un resumen de las políticas educativas vigentes, organizadas en cuatro áreas clave: "Aprender a conocer", centrado en contenidos conceptuales como ideas, teorías y definiciones; "Aprender a hacer", enfocado en contenidos procedimentales que desarrollan capacidades, destrezas y habilidades; "Aprender a ser", que aborda contenidos actitudinales relacionados con actitudes personales, autoestima, autonomía y responsabilidad; y "Aprender a convivir", que también incluye contenidos actitudinales, pero orientados hacia los valores sociales como la solidaridad y la empatía.')
 
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema1/img13.png', alt='')
-      .col-sm-12.col-lg-9.align-content-center  
-       .bgimg2.px-4.py-3
-        .bg4
-            SlyderF.mb-0(columnas="col-lg-12 col-xl-12")
-              .p-5.my-0.h-card
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
-                  .col-sm-12.col-lg-7
-                    p.mb-0 La Ley 115 de 1994, regula la educación pública formal en Colombia, definiendo su propósito, a quién se dirige, y los objetivos que busca alcanzar. Establece la estructura de la educación formal, los niveles educativos y los contenidos de la enseñanza obligatoria, adaptándose a las necesidades de diferentes grupos poblacionales, como grupos étnicos, adultos y niños.
 
-              .p-5.my-0.h-card
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
-                  .col-sm-12.col-lg-7
-                    p.mb-0 El Plan Decenal de Educación 2006-2016, recoge las políticas para impulsar las transformaciones necesarias en la educación colombiana.
-              
-              .p-5.my-0.h-card
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/tema1/img15.svg', alt='')
 
-                  .col-sm-12.col-lg-7
-                    p.mb-0 La Ley 119 de 1994, reorganiza el SENA, definiendo su misión, objetivos y funciones, enfocándose en la formación para el trabajo y el desarrollo humano.
-    .cajon.color-acento-contenido.p-4.mb-4
-      p.mb-0 Las leyes 115 y 119 de 1994 regulan la educación pública y el SENA en Colombia, mientras que el Plan Decenal 2006-2016 establece políticas para transformar el sistema educativo.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
