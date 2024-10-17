@@ -126,6 +126,11 @@
   position: relative;
   top: -45px;
   margin: auto;
+.img-bloque-3
+  width: 62%;
+  position: relative;
+  top: -45px;
+  margin: auto;
 .w-10
   width: 10%
 .pr-0-cus
@@ -142,7 +147,19 @@
   position: relative;
   left: -30px;
 
+.fullview
+  background: linear-gradient(to bottom, #FFF5EB 80%, #fff);
+  background-position: center
+  background-size: cover
+  margin-inline: -3.4rem
+
+.h-card-2
+    height: 290px;
+.h-card-3
+    height: 350px;
 /*CUSTOM COMPONENTS*/
+.tarjeta--boton
+    background-color: $color-secundario;
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
   background-color: #FDC3B9
   border-radius: 10px
@@ -217,10 +234,13 @@
   background-color: #FFEBC1 !important
 .tarjeta--orange.acordion__activo
   background-color: #FEE7D4 !important
-.acordion__accion__btn--a
+.acordion__accion__btn--a,
+.acordion__accion__btn--b
   background-color: #92E8DB
   color: $color-sistema-texto !important
-
+  border-color: $color-primario
+.tarjeta--yellow
+  background-color: #FFE7B7 !important
 .tabs-a__tab 
     background-color: $color-acento-contenido
 .img-infografica__item, .img-infografica-b__item 
@@ -238,18 +258,21 @@
     margin-bottom: 2em  !important 
   .img-bloque
     width: 75%;
+  .img-bloque-3
+    width: 72.5%;
   .bgimg2 
     height: auto;
     display: block;
   .fix-title
     position: initial;
     left: 0px;
+  
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
-  .h-card
+  .h-card, .h-card-2, .h-card-3
     height: auto;
   .bloque-texto-g
     padding-top: 20px !important;
@@ -262,6 +285,7 @@
   .list-icons
     flex-direction: column
     justify-content: start
+
 
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
