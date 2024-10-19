@@ -5,170 +5,813 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 ¿Cuál es la labor de un Educador?
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema3/img1.png')
-      .col-sm-12.col-lg-7
-        p.mb-4 Este texto explora los diferentes términos que se utilizan para referirse a:
-        .row.mb-
-          .col-sm-12.col-lg-2.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img2.svg')
-          .col-sm-12.col-lg-10
-            .row.justify-content-start.mb-0
-              .col-sm-12.col-lg-12
-                ul.lista-ul--color.d-flex.flex-row.justify-content-between
-                  li.d-flex
-                    i.fas.fa-chalkboard-teacher
-                    span Un maestro.
-                  li.d-flex
-                    i.fas.fa-chalkboard-teacher
-                    span Un profesor.
-                  li.d-flex
-                    i.fas.fa-chalkboard-teacher
-                    span Un docente.
-                ul.lista-ul--color.d-flex.flex-row.justify-content-around
-                  li.d-flex
-                    i.fas.fa-chalkboard-teacher
-                    span Un instructor.
-                  li.d-flex
-                    i.fas.fa-chalkboard-teacher
-                    span Un tutor.
-        p.mb-0 Destacando las diferencias históricas y conceptuales entre ellos. Aunque en teoría estos términos pueden emplearse de manera intercambiable, cada uno tiene un origen sociohistórico que refleja distintas características y enfoques educativos. Algunos expertos sostienen que los cambios en la denominación del educador simplemente reflejan la evolución del proceso educativo, mientras que otros consideran que estos cambios han causado una crisis de identidad en la figura del educador.
-    TabsC.color-acento-contenido.mb-5
-      .p-4(titulo="Maestro")
-        .row.justify-content-center.mb-0.p-4
-          .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img3.png')
-          .col-sm-12.col-lg-7
-            h4 Maestro
-            p.mb-0 Proviene de la antigüedad griega, un contexto donde los grandes pensadores, como Sócrates, desempeñaban un papel central en la educación. El maestro no solo transmitía conocimiento, sino que encarnaba la idea de “educar con el ejemplo”, modelando virtudes y sabiduría en su vida diaria. A través de la mayéutica, ayudaba a los estudiantes a descubrir por sí mismos el conocimiento latente en su interior, promoviendo la reflexión filosófica y el autoconocimiento, lo que hacía de la educación un proceso transformador tanto para el maestro como para el aprendiz.
-
-      .p-4(titulo="Profesor")
-        .row.justify-content-center.mb-0.p-4
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img4.png')
-          .col-sm-12.col-lg-7
-            h4 Profesor
-            p.mb-0 Surge en la Edad Media, un periodo marcado por el crecimiento de las universidades y la formalización del conocimiento. A diferencia del maestro griego, el profesor se enfocaba en transmitir saberes a grupos de estudiantes, generalmente jóvenes, en un entorno más formal y estructurado, a menudo dentro de instituciones religiosas o académicas. Este rol evoluciona con el tiempo, pasando de impartir un conocimiento predominantemente religioso a uno más filosófico y científico, especialmente durante el Renacimiento y la Ilustración.
-
-      .p-4(titulo="Docente")
-        .row.justify-content-center.mb-0.p-4
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img5.png')
-          .col-sm-12.col-lg-7
-            h4 Docente
-            p.mb-0 Emerge durante la Revolución Industrial, cuando la enseñanza se convierte en una profesión estructurada. Con la creación de facultades de educación y la necesidad de un sistema educativo organizado, el docente se profesionaliza y recibe formación en áreas como pedagogía, epistemología y ciencias de la educación. Su rol no se limita a la transmisión de conocimientos, sino que incluye la formación de ciudadanos capaces de operar en un sistema económico en expansión. La enseñanza pasa a ser vista como una carrera profesional, muchas veces impulsada por vocación, pero también como una necesidad social.
-
-      .p-4(titulo="Instructor")
-        .row.justify-content-center.mb-0.p-4
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img6.png')
-          .col-sm-12.col-lg-7
-            h4 Instructor
-            p.mb-0 Nace en respuesta a la creciente demanda de mano de obra calificada durante la industrialización. En este contexto, su función es formar técnicamente a los ciudadanos para los nuevos trabajos surgidos en fábricas y entornos industriales. El instructor se diferencia de otros educadores por su énfasis en la capacitación práctica y técnica, trabajando en estrecha colaboración con el sector productivo. Su enseñanza está orientada a competencias específicas, necesarias para cumplir con los requisitos del mercado laboral y contribuir al desarrollo industrial.
-
-      .p-4(titulo="Tutor")
-        .row.justify-content-center.mb-0.p-4
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img7.png')
-          .col-sm-12.col-lg-7
-            h4 Tutor
-            p.mb-0 Una figura más reciente en la educación aparece como respuesta a las transformaciones generadas por la globalización y las tecnologías de la información y la comunicación (TIC). El tutor no solo enseña, sino que guía y acompaña al aprendiz en un proceso de aprendizaje autónomo, a menudo en entornos virtuales o mediados por la tecnología. En lugar de centrarse exclusivamente en la transmisión de contenidos, el tutor promueve la autorregulación y la capacidad crítica del estudiante, facilitando el aprendizaje a lo largo de la vida en un mundo cada vez más interconectado y dinámico.
-
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-6
-        .bgimg1
-          h5 Para reflexionar: 
-          p.mb-0 ¿Usted qué tipo de educador se considera: maestro, profesor, docente, instructor o tutor?     
-    .bgimg4.mb-3
-      h3.pt-3 La crisis de la profesión docente, o “malestar docente” 
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      h1 Currículo y evaluación 
+    p.mb-5 El currículo, comúnmente asociado únicamente a un plan de estudios o estructura curricular, abarca en realidad un concepto más amplio y complejo, no puede limitarse a esos elementos, sino que debe entenderse como el marco general que guía y posibilita el proceso formativo. Un planteamiento curricular establece los fundamentos, delimita criterios y comportamientos, orienta los grandes procesos y define las posibilidades para la acción educativa.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5.mt-5
       .bloque-texto-g__img.bg1
-        img.img-bloque.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img8.png', alt='')
+        img.img-bloque-5.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img1.png', alt='')
         
       .bloque-texto-g__texto.p-4
-        p.mb-0 Este ha sido un tema recurrente en las últimas décadas y causa malestar, se manifiesta en sentimientos de impotencia, tensión y dificultad entre los educadores, atribuidos en gran parte a estudiantes desmotivados, malos resultados académicos y una formación docente deficiente. Aunque esta situación no es universal, es una realidad común en muchos países, particularmente en Latinoamérica, con algunas excepciones como Finlandia. Los docentes enfrentan desafíos que los llevan a cuestionar su efectividad y a sentir un profundo desgaste profesional.
-    p.mb-5 No obstante, existen esfuerzos para revertir esta crisis, pues en varios países, incluyendo Colombia, los gobiernos han comenzado a implementar políticas para revalorizar el papel del maestro, considerándolo un actor clave en la sociedad. Sin embargo, el cambio también depende de los propios docentes, quienes deben asumir un rol activo en su desarrollo profesional, en donde deben ir actualizándose constantemente sobre sus prácticas y potencializar el compromiso con la mejora continua, ya que esto es fundamental para superar el malestar docente y restaurar la dignidad y relevancia de la profesión en la sociedad.
+        p.mb-3 La construcción del currículo involucra no solo a los docentes que diseñan las estructuras curriculares, sino también a todos los actores del sistema educativo, como gobernantes, directivos, estudiantes y sus familias. Cada uno de ellos contribuye y forma parte integral de este conjunto dinámico.
+        p.mb-0 Dado que el currículo debe adaptarse a los cambios sociales y las nuevas demandas globales, se convierte en un sistema en constante movimiento y cuestionamiento. Cualquier modificación en una de sus piezas puede impactar al conjunto, lo que resalta su carácter sistémico e interdependiente.
     
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-12
+        .bgimg1.p-4
+          p.mb-0 En resumen, el currículo es una entidad viva que refleja y responde a las realidades contextuales, haciendo de su análisis una tarea que exige examinar las interacciones entre todas sus partes y el entorno en el que se desarrolla.
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1  ¿Por qué ser un docente? 
-    p.mb-5 El pedagogo francés Philippe Meirieu destaca la fuerza interior que impulsa a quienes realmente desean ser maestros:
+      h2 3.1 Estructura curricular SENA
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema3/img9.png')
+        img(src='@/assets/curso/temas/tema3/img2.png')
       .col-sm-12.col-lg-7
         .row.mb-3
           .col-sm-12.col-lg-2.d-none.d-lg-block
-            img(src='@/assets/curso/temas/tema3/img10.svg')
+            img(src='@/assets/curso/temas/tema3/img3.svg')
           .col-sm-12.col-lg-10
-            p.mb-1.fw-bold La vocación
-            p.mb-0 Un verdadero maestro se forma a partir de esta vocación, un interés innato por educar y formar mejores seres humanos que puedan contribuir a construir una sociedad más justa y alcanzar su propia felicidad.
+            p.mb-0 Un programa de formación en el SENA surge a partir de las necesidades del sector productivo, caracterizándose por su flexibilidad y capacidad de anticipación, cada programa, sea de formación titulada o complementaria, se basa en normas de competencia laboral elaboradas por mesas sectoriales que reúnen a representantes del sector productivo y del SENA.
         .br1
-          p.mb-0 El maestro no necesita una razón más poderosa para ejercer su profesión que el amor por su país y por el mundo, por ello, no se deja abatir por las dificultades que inevitablemente enfrenta, sino que trabaja con la convicción de que está moldeando un mejor futuro. Su recompensa es sencilla pero profunda: una sonrisa de agradecimiento, una vida transformada o un estudiante que logra sus sueños. Estas son las verdaderas razones para ser maestro.
-
-    .bloque-texto-f.color-acento-botones.pt-4.px-5.mb-5
-      .bloque-texto-f__comillas
-        i.fas.fa-quote-left.color-primario
-        i.fas.fa-quote-right.color-primario
-      .bloque-texto-f__texto.text-center.mb-4
-        .d-block.mb-4
-          img.w-10(src='@/assets/curso/temas/tema1/img7.svg')
-        .d-block
-          p.mb-0 Porque enseñar no es sólo poner en marcha un conjunto de competencias separadas las unas de las otras: escoger un ejercicio y hacer que reine el orden, explicar un texto y corregir las versiones del mismo… Es hacer todo eso, claro, pero con “algo más”, “algo” que los alumnos reconocen, además, bastante bien; “algo” que no se puede reducir al carisma individual y, mucho menos, a una capacidad relacional. “Algo” que remite más bien a una especie de “fuerza interior”, una “fuerza” que expresa una coherencia y es testimonio de un proyecto. Una “fuerza” de la que emana el sentimiento de que el hombre o la mujer que enseñan están aquí en su lugar. Y que ejercen una profesión que tiene sentido para ellos.
-      .bloque-texto-f__autor.mb-3
-        h5.mb-3 Meirieu, 2004, p. 13
+          p.mb-0 En la creación de un programa, un grupo colaborativo determina el propósito y nivel de formación, analizando tanto información interna como externa para identificar las características específicas del contexto, tendencias tecnológicas y oportunidades laborales tanto a nivel local como global.
+    
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-10
-        .bgimg1
-          h5 Para reflexionar: 
-          ul.lista-ul--color
-            li.d-flex
-              i.fas.fa-chalkboard-teacher
-              span ¿Cuál es el motor que impulsa su labor como educador?
-            li.d-flex
-              i.fas.fa-chalkboard-teacher
-              span Desde su experiencia, ¿por qué cree que los futuros maestros obtienen los resultados más bajos en las pruebas Saber Pro?
-            li.d-flex
-              i.fas.fa-chalkboard-teacher
-              span ¿Considera que esto podría estar relacionado con el llamado malestar docente?
-    p.mb-3 Después de reflexionar desde su rol como docente, encontrará a continuación siete tipos de Docentes. 
-    p.mb-5 Reconózcalos y reflexione sobre cuál se asemeja más a su estilo docente.
+        .cajon.color-acento-contenido.px-5.py-4
+          p.mb-0 El diseño curricular, por su parte, organiza de manera secuencial los elementos del programa, estableciendo las competencias y resultados de aprendizaje necesarios para dar respuesta a las demandas de formación y garantizar la calidad y pertinencia de la oferta educativa.
+    
+    
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img4.png')
+      .col-sm-12.col-lg-7
+        p.mb-4 Algunos de los campos que contiene un diseño curricular son:
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span a
+            span Código, versión y denominación de la Norma de Competencia Laboral: espacio donde se especifican estos datos de manera clara y precisa.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span b
+            span Duración estimada para el logro del aprendizaje: número de horas que, según los expertos, requiere un aprendiz para alcanzar la competencia. Se recomienda definirlas en múltiplos de diez.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span c
+            span Resultados de aprendizaje: se refieren a los logros (productos, respuestas, desempeños) de tipo motriz, valorativo, cognitivo y actitudinal que el aprendiz debe alcanzar durante el proceso formativo.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span d
+            span Conocimientos de concepto y principio: basados en los criterios de desempeño, conocimientos esenciales y rangos de aplicación de la norma.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span e
+            span Conocimientos de proceso: incluyen los subprocesos, procedimientos o actividades de tipo cognitivo y motriz necesarios para lograr los resultados de aprendizaje, apoyados en los conocimientos de conceptos y principios.
+    
+    p.mb-5 Vale la pena señalar la importancia de los Criterios de evaluación, los cuales son indicadores que determinan el nivel de logro que los aprendices deben alcanzar durante el proceso de aprendizaje y que permiten emitir un juicio formativo o sumativo. Estos criterios fomentan la autoevaluación, coevaluación y heteroevaluación a lo largo del proceso. Un criterio de evaluación puede abarcar más de un resultado de aprendizaje.
+    p.mb-5.text-center Así mismo se resalta la importancia de: 
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-4.mb-cus
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img40.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Equipos de diseño curricular
+              p.mb-0.text-center Cada centro de formación del SENA forma equipos interdisciplinarios para el desarrollo curricular, ya sea para un programa específico o un conjunto de programas afines. Estos equipos incluyen instructores técnicos y profesionales que aportan en áreas transversales como emprendimiento, inglés y habilidades para la interacción social y laboral. Los instructores pueden participar en varios equipos según su experiencia, y uno de ellos es designado gestor de proyecto, coordinando la ejecución de este.
+      .col-sm-12.col-lg-4.mb-cus
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img41.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Competencias transversales
+              p.mb-0.text-center En el diseño curricular del SENA, las competencias transversales como emprendimiento, inglés, cultura física, salud ocupacional y ética son fundamentales. Estas competencias se integran de manera práctica en el aprendizaje, fomentando el desarrollo de aptitudes, conocimientos y valores aplicables en cualquier ámbito laboral.
+      .col-sm-12.col-lg-4.mb-cus
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img42.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Competencias ciudadanas
+              p.mb-0.text-center El currículo SENA también incluye competencias ciudadanas, que desarrollan habilidades cognitivas, emocionales y comunicativas, permitiendo a los aprendices participar activamente en una sociedad democrática, pacífica e inclusiva, y contribuyendo a la resolución adecuada de conflictos.
+
+    p.mb-5 Los siguientes elementos corresponden a componentes clave dentro de la estructura y gestión educativa del SENA. Se podrían agrupar y denominar de la siguiente manera:
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-8
         LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Creativo: pensamiento innovador, recursivo y divergente")
+          .row(numero="1" titulo="Normativa de Convivencia")
             .col-sm-12.col-lg-12
-              p.mb-0 Cuando un Docente opta por ser creativo, transforma su enfoque y considera cómo cada clase puede ofrecer a los estudiantes un recorrido único, entretenido y significativo. Al planificar, explora diversos caminos, herramientas y recursos, desde actividades simples como pintar, jugar o actuar, hasta el uso de tecnologías más avanzadas. Si no domina estas herramientas, busca aprenderlas con determinación, además, es sensible al ambiente en clase; si detecta que una estrategia no funciona, ajusta su enfoque con flexibilidad, profesionalismo y confianza.
-
-          .row(numero="2" titulo="Intelectual: un libro abierto a mundos posibles ")
+              p.mb-3 Hace referencia al Reglamento del Aprendiz, que establece las reglas y lineamientos para promover una convivencia pacífica y organizada dentro del entorno educativo.
+              ul.lista-ul--color.px-lg-4
+                li.d-flex
+                  i.fas.fa-chalkboard-teacher
+                  span #[b Reglamento del aprendiz:] El reglamento del aprendiz en el SENA es un componente clave de la propuesta curricular que busca fomentar la convivencia pacífica en la comunidad educativa. Está estructurado en 12 capítulos, cada uno con artículos y parágrafos que detallan las normas de comportamiento y convivencia.
+          .row(numero="2" titulo="Gestión del Conocimiento")
             .col-sm-12.col-lg-12
-              p.mb-0 Uno de los mayores desafíos para estudiantes y profesores en Colombia es la baja competencia lectora y escritora; un Docente, independientemente de su especialidad, debe ser intelectualmente integral, con conocimientos generales y el hábito de la lectura y escritura en sus áreas de interés. A través de la literatura, el cine y la escritura, se accede a múltiples realidades y se mejoran habilidades críticas, argumentativas y ortográficas. Estas competencias permiten que los docentes sean reconocidos como profesionales reflexivos y activos, capaces de repensar y reformar su rol académico, como señala Henry Giroux (1990).
-
-          .row(numero="3" titulo="Artista: un soñador al borde de la utopía")
+              p.mb-3 Relacionado con las Redes de Conocimiento, que son una iniciativa estratégica para la creación, gestión y actualización del conocimiento dentro del SENA, así como para la modernización de los programas y ambientes de formación.
+              ul.lista-ul--color.px-lg-4
+                li.d-flex
+                  i.fas.fa-chalkboard-teacher
+                  span #[b Redes de conocimiento:] Las redes de conocimiento del SENA son una estrategia para gestionar el conocimiento a nivel sectorial e institucional. Se apoyan en las capacidades internas como la cultura organizacional, procesos, tecnología y talento humano, y buscan actualizar diseños curriculares, desarrollar nuevos programas de formación y modernizar los ambientes de aprendizaje, todo alineado con las demandas del sector productivo y las últimas tecnologías.
+          .row(numero="3" titulo="Redes de Colaboración Sectorial")
             .col-sm-12.col-lg-12
-              p.mb-0 Un Docente es un soñador al que se le exige inspirar y alimentar los sueños de sus estudiantes, promoviendo la transformación social y personal, y evitando el conformismo y la desesperanza. La educación es una utopía, un deseo por un mundo mejor, que se conecta con valores como el respeto, la justicia, la tolerancia y la dignidad humana; aunque la utopía parece inalcanzable, un profesor, la convierte en una posibilidad dentro de la vida y convivencia humana, transformando lo que aún no es, en algo que podría llegar a ser.
-
-          .row(numero="4" titulo="Investigador: en búsqueda de la transformación social")
-            .col-sm-12.col-lg-12
-              p.mb-0 El Docente que busca la transformación social debe ser un investigador y académico activo y reflexivo, capaz de generar propuestas e investigaciones pedagógicas y sociales que impulsen cambios constantes, convirtiendo a la escuela en un espacio de producción intelectual; por tanto la escuela debe ser un lugar donde se fomente la investigación, el análisis y la creación de conocimientos, tanto en el ámbito educativo como científico, consolidándose como un eje de transformación social. Aunque la investigación científica requiere rigurosidad y seriedad, la observación del entorno puede ser el primer paso para identificar problemas relevantes y buscar soluciones que contribuyan al mejoramiento social.
-
-          .row(numero="5" titulo="Crítico-Reflexivo: en praxis constante de su diario que hacer")
-            .col-sm-12.col-lg-12
-              p.mb-0 El Docente debe reflexionar constantemente sobre su práctica en el aula, considerando los sucesos, avances, desafíos y cambios que enfrenta diariamente. Esta reflexión fortalece su compromiso con el aprendizaje y el conocimiento que construye junto a los estudiantes, ya que la labor docente no debe limitarse a aspectos metodológicos, sino que debe orientar procesos más significativos y dinámicos. Para una verdadera praxis, el docente debe adoptar una postura crítica, evitando la resistencia al cambio e implementándolo cuando sea necesario, siempre generando argumentos sólidos y analizando las situaciones desde una perspectiva reflexiva.
-
-          .row(numero="6" titulo="Responsable socialmente: un actor social formador de seres democráticos y libres")
-            .col-sm-12.col-lg-12
-              p.mb-0 La naturaleza del docente se refleja en un conjunto de cualidades que destacan su integralidad, aunque no todos los docentes cumplen con todas ellas; el objetivo es que, eventualmente, lo hagan para desempeñar su rol como actores sociales al servicio de la democracia y la libertad. Hoy en día, el profesor ha pasado de ser un simple transmisor de conocimientos a un formador de ciudadanos críticos, con un alto sentido de alteridad, capaces de tomar decisiones que privilegien la democracia, la libertad y la búsqueda de sus sueños. Como señala Nussbaum (2010), los métodos educativos convencionales promueven la pasividad en los estudiantes, lo que debilita sus facultades críticas y afecta negativamente la democracia, que requiere ciudadanos activos y vigilantes.
+              p.mb-3 Refiriéndose a las Redes de Conocimiento Sectorial, que agrupan tanto a comunidades internas del SENA como a instituciones externas, enfocadas en la investigación y desarrollo de soluciones en áreas estratégicas para el país.
+              ul.lista-ul--color.px-lg-4
+                li.d-flex
+                  i.fas.fa-chalkboard-teacher
+                  span #[b Redes de conocimiento sectorial SENA:] Estas redes agrupan comunidades de conocimiento internas y externas que colaboran para alcanzar objetivos comunes. Fortalecen capacidades en investigación aplicada y comunicación, compartiendo conocimientos y soluciones tanto a nivel nacional como internacional, promoviendo la innovación y el desarrollo en sectores estratégicos.
       .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img5.png')
+    p.mb-5 ARTÍCULO 15. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO SECTORIAL SENA. De acuerdo con estos criterios establecidos en la presente Resolución, se conforman las siguientes redes de conocimiento sectorial SENA:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-4
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 1
+            span Red de conocimiento en cultura.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 2
+            span Red de conocimiento en artesanías.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 3
+            span Red de conocimiento en artes gráficas.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 4
+            span Red de conocimiento en gestión administrativa y financiera.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 5
+            span Red de conocimiento en comercio y ventas
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 6
+            span Red de conocimiento ambiental
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 7
+            span Red de conocimiento en biotecnología
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 8
+            span Red de conocimiento en mecánica industrial
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 9
+            span Red de conocimiento en energía eléctrica
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 10
+            span Red de conocimiento en electrónica y automatización.
+
+
+
+      .col-sm-12.col-lg-4
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 11
+            span Red de conocimiento en telecomunicaciones.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 12
+            span Red de conocimiento en química aplicada.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 13
+            span Red de conocimiento en informática, diseño y desarrollo de software.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 14
+            span Red de conocimiento automotor.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 15
+            span Red de conocimiento aeroespacial.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 16
+            span Red de conocimiento textil, confección diseño y moda.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 17
+            span Red de conocimiento en cuero, calzado y marroquinería.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 18
+            span Red de conocimiento en materiales para la industria.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 19
+            span Red de conocimiento en minería.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 20
+            span Red de conocimiento en hidrocarburos.
+      .col-sm-12.col-lg-4
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 21
+            span Red de conocimiento en logística y gestión de la producción.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 22
+            span Red de conocimiento en construcción.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 23
+            span Red de conocimiento en infraestructura.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 24
+            span Red de conocimiento agrícola.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 25
+            span Red de conocimiento pecuaria.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 26
+            span Red de conocimiento acuícola y de pesca.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 27
+            span Red de conocimiento en salud.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 28
+            span Red de conocimiento en hotelería y turismo.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 29
+            span Red de conocimiento en actividad física, recreación y deporte.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 30
+            span Red de conocimiento en transporte.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 31
+            span Red de conocimiento en servicios personales.
+    
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 Las redes de conocimiento institucional del SENA 
+    
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img6.png')
+      .col-sm-12.col-lg-7
+        p.mb-3 Están conformadas por grupos e instituciones que colaboran en torno a procesos clave como la inclusión social, el empleo, el emprendimiento y el fortalecimiento institucional.
+        p.mb-3 A través de la interacción en estas redes, se genera y transfiere conocimiento, además de fomentar el aprendizaje y el desarrollo a partir de prácticas compartidas.
+        p.mb-3 Estas redes institucionales estandarizan actividades, establecen reglas claras para la transferencia de conocimientos y mecanismos de interacción, con el objetivo de facilitar la comunicación y optimizar los procesos transversales, fortaleciendo así la cadena de valor institucional.
+        p.mb-0 ARTÍCULO 22. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO INSTITUCIONAL SENA. Teniendo en cuenta los criterios mencionados, se establecen las siguientes redes de conocimiento institucional SENA:
+    
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-6
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 1
+            span Red institucional de inclusión social.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 2
+            span Red institucional de aseguramiento de la calidad.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 3
+            span Red institucional de integralidad de la formación.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 4
+            span Red Institucional de Pedagogía.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 5
+            span Red institucional de articulación con el sistema educativo y empresas formadoras.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 6
+            span Red institucional de empleo.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 7
+            span Red institucional de emprendimiento.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 8
+            span Red institucional del Sistema de bibliotecas.
+      .col-sm-12.col-lg-6
+        .bg7.mb-4 Concordancias
+        ol.lista-ol--cuadro.mb-0
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 9
+            span Red institucional de enseñanza de idiomas.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 10
+            span Red institucional de consolidación del servicio al ciudadano.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 11
+            span Red institucional de fortalecimiento y actualización del sistema general de información.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 12
+            span Red institucional de fortalecimiento y actualización de planta física.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 13
+            span  Red institucional de optimización de la gestión de recursos económicos.
+          li.d-flex.mb-3
+            .lista-ol--cuadro__vineta
+              span 14
+            span Red institucional de Gestión del Conocimiento.
+    
+    
+    Separador
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h2 3.2 Aspectos para destacar de SENA
+    .bgimg5.mb-5
+      h3.py-1 Programas estrella
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--yellow")
+      .row(titulo="Emprendimiento SENA")
+        .col-sm-12.col-lg-9
+          p.mb-3 El SENA está comprometido con la formación para el trabajo de los colombianos, asumiendo un papel clave como dinamizador de la economía. Para ello, ofrece servicios enfocados en la generación de empleo.
+          p.mb-0 En este contexto, la entidad lidera el Programa de Emprendimiento y Empresarismo más importante del país, cuyo objetivo principal es fomentar la cultura del emprendimiento. Esto se logra identificando ideas de negocio y orientando a los colombianos hacia las diversas fuentes de financiación disponibles en el mercado (SENA, s.f.).
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img7.png')
+      .row(titulo="Emprende T")
+        .col-sm-12.col-lg-9
+          p.mb-3 Este programa fortalece la cadena de valor del emprendimiento en Colombia, dirigiéndose a diferentes grupos poblacionales: aprendices de los centros de formación del SENA en programas técnicos, beneficiarios del programa Jóvenes Rurales Emprendedores, talentos de Tecnoparque, personas desplazadas por la violencia, población vulnerable, y cualquier colombiano que requiera apoyo especial en emprendimiento.
+          p.mb-0 El programa trabaja en conjunto con las estrategias propuestas por entidades nacionales y territoriales, enfocando sus esfuerzos en fortalecer la capacidad técnica, el conocimiento y la experiencia de los participantes. De esta manera, el SENA contribuye a la creación de sectores competitivos a nivel global, permitiendo que los aprendices generen ideas de negocio en áreas con alto potencial.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img8.png')
+      .row(titulo="Fondo Emprender")
+        .col-sm-12.col-lg-9
+          p.mb-0 El Fondo Emprender tiene como propósito apoyar proyectos productivos que integren los conocimientos adquiridos por los emprendedores durante su formación. Estos proyectos se desarrollan a través de la creación de nuevas empresas productivas, que además de generar empleo, cumplan con las obligaciones legales de su constitución y aporten al bienestar económico del país.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img9.png')
+      .row(titulo="Fortalecimiento de Mypes")
+        .col-sm-12.col-lg-9
+          p.mb-0 Dentro de las estrategias de la Dirección de Empleo, Trabajo y Emprendimiento se incluyó el fortalecimiento de las Mypes (Micro, Pequeñas y Medianas Empresas), brindando un mayor apoyo para su desarrollo y sostenibilidad.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img10.png')
+      .row(titulo="Jóvenes Rurales Emprendedores")
+        .col-sm-12.col-lg-9
+          p.mb-3 SENA Emprende Rural (SER) es un programa que promueve la generación de ingresos en las zonas rurales mediante el desarrollo de competencias y capacidades, así como el acompañamiento a iniciativas productivas. Estas iniciativas pueden estar orientadas al autoconsumo, al emprendimiento o a la creación de empresas.
+          p.mb-5 SER desarrolla procesos de formación y fortalecimiento organizacional o comunitario a través de dos rutas de atención, basadas en los principios de la economía familiar:
+          ul.lista-ul--color.px-lg-5
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span #[b Emprendimiento rural:] orientado a la creación de emprendimientos de autoconsumo, bioculturales y aquellos con un enfoque en agronegocios.
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span #[b  Empleabilidad en ocupaciones rurales:] formación especializada en competencias técnicas y operativas para actividades dentro del sector rural.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema3/img11.png')
 
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-12
+        .bgimg1.p-4
+          h5 ¿Sabía usted que…?
+          p.mb-0 El Fondo Emprender es una cuenta independiente y especial, adscrita al Servicio Nacional de Aprendizaje (SENA) y reglamentada por el Decreto 934 de 2003. Su propósito exclusivo es financiar iniciativas empresariales originadas y desarrolladas por aprendices, asociaciones de aprendices, practicantes universitarios o profesionales que hayan completado su formación en el SENA o en instituciones educativas reconocidas por el Estado.
+
+    .bgimg5.mb-5
+      h3.py-1 Cadena de formación y articulación con el sistema educativo
+    p.mb-5 El grupo de Articulación del SENA con el Sistema Educativo está alineado con las políticas del Sistema Nacional de Formación para el Trabajo, que busca coordinar la oferta de formación laboral. Este sistema incluye gremios, empresas, sindicatos, entidades de formación técnica y educación no formal, instituciones de educación media, universidades y el gobierno, con el objetivo de desarrollar políticas que impulsen la cualificación de los recursos humanos en el país (SENA, s.f.).
+    
+    .bgimg5.mb-5
+      h3.py-1 Articulación con la educación media
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img13.png')
+      .col-sm-12.col-lg-7
+        .row.mb-3
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img(src='@/assets/curso/temas/tema3/img12.svg')
+          .col-sm-12.col-lg-10
+            p.mb-0  Este proceso integra los contenidos curriculares, pedagógicos y recursos de la educación media con la educación superior, la formación profesional y la educación para el trabajo, facilitando la movilidad educativa y la exploración vocacional de los jóvenes. Así, se promueve su permanencia en el sistema educativo y su inserción en el mercado laboral.
+        .br1
+          p.mb-0  El programa busca fortalecer en los jóvenes las competencias básicas, ciudadanas y técnicas, preparándolos para continuar su formación a lo largo de su vida y competir exitosamente en el mundo laboral. Al combinar un programa técnico laboral con uno de educación superior, se incrementan sus oportunidades de movilidad dentro del sistema educativo.
+    .bgimg5.mb-5
+      h3.py-1 ¿Qué hace el SENA?
+    p.mb-5 El SENA ofrece asesoría personalizada para ayudar a seleccionar el programa de formación más adecuado. Además:
+    .row.mb-5
+      .col-sm-12.col-lg-4
+        .tarjeta--boton.color-primario.p-4.h-card-4.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-4.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img14.svg')
+          p.mb-0.text-center Transfiere la estructura curricular y los recursos didácticos necesarios para el desarrollo del programa.
+      .col-sm-12.col-lg-4
+        .tarjeta--boton.color-primario.p-4.h-card-4.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-4.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img15.svg')
+          p.mb-0.text-center Actualiza técnica y pedagógicamente a los docentes de las instituciones educativas.
+      .col-sm-12.col-lg-4
+        .tarjeta--boton.color-primario.p-4.h-card-4
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-4.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img16.svg')
+          p.mb-0.text-center Realiza evaluaciones periódicas a los estudiantes, con el fin de certificar a aquellos que cumplen con los logros establecidos en el programa de formación.
+
+    .bgimg5.mb-5
+      h3.py-1 ¿Qué beneficios ofrece la integración?
+    .row.justify-content-start.align-items-center.mb-4
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0  Para las instituciones educativas
+    p.mb-5 Mejora la pertinencia y calidad de los programas de formación para el trabajo, y garantiza que los docentes se mantengan actualizados tanto pedagógica como técnicamente.
+
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 Para los alumnos
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img.bg1
+        img.img-bloque-6.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img17.png', alt='')
+        
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Obtienen una doble certificación: una como bachiller, otorgado por la institución educativa y otra en un área técnica específica, otorgada por el SENA. Además, pueden continuar su formación en el SENA si lo hacen dentro del primer semestre del año siguiente a la finalización del programa. De no ser así, deberán someterse al proceso de selección regular del SENA. Asimismo, tienen mayores oportunidades de vincularse al sector productivo y adquieren herramientas necesarias para emprender su propio negocio.
+    
+    .bgimg5.mb-5
+        h3.py-1 Contratos de aprendizaje
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img18.png')
+      .col-sm-12.col-lg-7
+        .row.mb-3
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img(src='@/assets/curso/temas/tema3/img19.svg')
+          .col-sm-12.col-lg-10
+            p.mb-0 El contrato de aprendizaje es una pieza clave del modelo formativo del SENA. A través de este, las empresas patrocinan a los aprendices, permitiéndoles realizar sus prácticas en un entorno real de trabajo, donde aplican lo aprendido en la etapa lectiva y adquieren nuevas habilidades de la empresa. Este proceso no solo culmina su formación, sino que también contribuye al fortalecimiento de las empresas en el ámbito local, nacional y global.
+        .br1
+          p.mb-0 Durante todo el proceso, el aprendiz cuenta con un acompañamiento integral, ya que tanto la institución como la empresa monitorean su progreso, asegurando una experiencia formativa supervisada y enriquecedora.
+    p.mb-4 Como se ha mencionado a lo largo del componente, el currículo no se limita únicamente a la estructura de contenidos y programación, ya que es un concepto mucho más amplio que abarca todos los programas y elementos que dan identidad a la institución.
+    p.mb-5 A continuación, se destacan algunos componentes adicionales del currículo del SENA:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-3.mb-cus
+        .tarjeta-avatar.h-card-6
+          img(src='@/assets/curso/temas/tema3/img20.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Investigación científica
+              p.mb-0.text-center Es un pilar fundamental dentro del currículo del SENA, fomentando la indagación y el desarrollo del conocimiento. Es un pilar fundamental dentro del currículo del SENA, fomentando la indagación y el desarrollo del conocimiento.
+      .col-sm-12.col-lg-3.mb-cus
+        .tarjeta-avatar.h-card-6
+          img(src='@/assets/curso/temas/tema3/img21.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Bilingüismo
+              p.mb-0.text-center Constituye una parte clave de la oferta curricular del SENA, con el objetivo de preparar a los aprendices para un entorno globalizado.
+      .col-sm-12.col-lg-3.mb-cus
+        .tarjeta-avatar.h-card-6
+          img(src='@/assets/curso/temas/tema3/img22.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Innovación y competitividad
+              p.mb-0.text-center Todos los procesos curriculares están orientados a fomentar la innovación y mejorar la competitividad de los estudiantes.
+      .col-sm-12.col-lg-3
+        .tarjeta-avatar.h-card-6
+          img(src='@/assets/curso/temas/tema3/img23.png')
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h4.text-center Formación virtual
+              p.mb-0.text-center El SENA apuesta por la formación titulada y complementaria en modalidad virtual, buscando generar inclusión y ampliar la cobertura educativa.
+
+    Separador
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3 Orientaciones sobre la evaluación
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--yellow").mb-5
+      .row(titulo="Carácter polisémico de la evaluación")
+        .col-sm-12.col-lg-12
+          p.mb-0 El término “evaluación” tiene múltiples significados según el contexto y los actores involucrados. La tendencia a concebir la evaluación únicamente como medición ha generado dogmatismos, ignorando otras perspectivas. En el entorno SENA, es fundamental una “apertura mental” que permita comprender la evaluación desde sus múltiples aplicaciones y su evolución histórica, en lugar de limitarse a un enfoque único.
+
+      .row(titulo="Carácter instrumentalista de la evaluación")
+        .col-sm-12.col-lg-12
+          p.mb-0 En muchos casos, la evaluación se utiliza de forma mecánica como una herramienta que acompaña cualquier actividad educativa, enfocándose exclusivamente en la obtención de una calificación. Esta visión instrumentalista reduce su verdadero valor como un elemento transformador en el proceso de aprendizaje. En el SENA, la evaluación debe ser una herramienta reflexiva que contribuya al crecimiento formativo de los aprendices.
+
+      .row(titulo="La evaluación como última acción pedagógica")
+        .col-sm-12.col-lg-12
+          p.mb-0 Es común que algunos docentes y sistemas educativos perciban la evaluación como el cierre de un proceso de enseñanza, dando lugar a los “exámenes finales”. Sin embargo, la evaluación debe ser un proceso continuo que puede ocurrir en cualquier etapa pedagógica. En el enfoque del SENA, es crucial integrar la evaluación a lo largo de todo el ciclo formativo para asegurar un acompañamiento integral del aprendizaje.
+
+      .row(titulo="Falta de retroalimentación transformativa")
+        .col-sm-12.col-lg-12
+          p.mb-0 Aunque las evaluaciones generan resultados, en muchos casos estos no provocan cambios en el aprendizaje de los estudiantes debido a la falta de retroalimentación efectiva. Los docentes deben proporcionar devoluciones constructivas que orienten a los aprendices en sus áreas de mejora y continúen el proceso educativo. En el SENA, la retroalimentación es clave para promover la mejora continua y el desarrollo profesional.
+
+      .row(titulo="Abuso del poder mediante la evaluación")
+        .col-sm-12.col-lg-12
+          p.mb-0 La evaluación, en ocasiones, es utilizada como un instrumento de control o castigo, imponiendo autoridad de manera autoritaria. En el aula, esto se traduce en el uso de las calificaciones como sanciones. Además, los docentes se ven obligados a cumplir con normas estrictas que no siempre son adaptables. En el contexto del SENA, la evaluación debe ser equitativa y justa, evitando su uso como herramienta coercitiva y enfocándose en el desarrollo formativo de los aprendices.
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-10 
+        .bgimg1.p-4
+          h5 Para reflexionar:
+          p.mb-0 ¿Cree usted que en lo que refiere a lo evaluativo son necesarias las notas, la escala de medición y las evaluaciones finales, para orientar un proceso pedagógico adecuadamente?
+    
+    .bgimg5.mb-5
+      h3.py-1 Autoevaluación, Coevaluación y Heteroevaluación
+    
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-8
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Autoevaluación")
+            .col-sm-12.col-lg-12
+              p.mb-0 La autoevaluación es un proceso reflexivo en el que el estudiante, de manera autónoma, evalúa su propio desempeño utilizando criterios específicos. Representa el máximo ejercicio de autorregulación y responsabilidad en el proceso evaluativo, donde el aprendiz puede definir tanto los criterios como los juicios sobre su trabajo. En el contexto del SENA, esta práctica fomenta la capacidad de los estudiantes para valorar su progreso, lo cual es esencial para su desarrollo profesional y personal.
+
+          .row(numero="2" titulo="Coevaluación")
+            .col-sm-12.col-lg-12
+              p.mb-0 La coevaluación es un proceso en el que pares o colegas se evalúan mutuamente, basado en el compromiso y el reconocimiento de una situación común. Este tipo de evaluación es frecuente entre grupos de estudiantes o docentes investigadores que valoran el trabajo de sus iguales. Para el SENA, la coevaluación es una herramienta colaborativa que promueve la construcción de un marco de referencia compartido y la mejora conjunta de procesos formativos.
+
+          .row(numero="3" titulo="Heteroevaluación")
+            .col-sm-12.col-lg-12
+              p.mb-0 En la heteroevaluación, el responsable del proceso de enseñanza evalúa a los aprendices bajo criterios establecidos previamente, sin que estos últimos tengan incidencia en la toma de decisiones sobre el resultado evaluativo. En el SENA, este tipo de evaluación es tradicional y asegura que los criterios establecidos por el instructor guíen el proceso formativo y la medición del rendimiento.
+
+          .row(numero="4" titulo="Metaevaluación")
+            .col-sm-12.col-lg-12
+              p.mb-0 La metaevaluación consiste en evaluar la propia evaluación para determinar su calidad y efectividad. Implica un análisis crítico de los fundamentos, los desarrollos y los impactos que tiene la evaluación en el proceso educativo. En el SENA, la metaevaluación es crucial para asegurar que los métodos evaluativos estén alineados con los objetivos curriculares y educativos, promoviendo así una mejora continua en la calidad de los procesos de enseñanza y aprendizaje.
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img24.png')
+    p.mb-5 Cada uno de estos tipos de evaluación en el SENA contribuye a fortalecer un enfoque integral que no solo mide el rendimiento de los aprendices, sino que también fomenta la reflexión, la colaboración y la mejora continua en el ámbito formativo.
+    h5 Test
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-7
+        ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿El desarrollo de la evaluación es coherente con las directrices establecidas en la propuesta curricular?
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿La evaluación refleja el verdadero progreso en el desarrollo de la propuesta curricular?
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿La evaluación proporciona información y juicios que contribuyen a mejorar y cualificar la propuesta?
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿Se ha ajustado la evaluación como resultado de una revisión crítica durante su implementación?
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿Cómo perciben los distintos actores del currículo el proceso evaluativo?
+            li.d-flex
+              i.fas.fa-chalkboard-teacher
+              span  ¿La evaluación facilita la comprensión tanto de los procesos como de los resultados de la propuesta curricular?
+
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img25.png')
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5
+        .cajon.color-acento-contenido.p-4.mb-0
+          p.mb-0.text-center Nota: actividad solo de autoanálisis frente al tema
+    p.mb-5 Todo esto resalta la importancia de que la evaluación no funcione de manera aislada, sino que esté alineada con la propuesta curricular y sea analizada críticamente a través de la metaevaluación. Aunque esta práctica es poco frecuente debido a enfoques limitados sobre la evaluación, es crucial impulsarla. Muchas prácticas evaluativas, especialmente en la educación superior, han permanecido sin revisión crítica durante décadas, llevándose a cabo de manera rutinaria y sin considerar sus verdaderos efectos (Torres, 2012).
+    .bgimg5.mb-4
+      h3.py-1 Evaluación en Colombia
+    p.mb-5 En Colombia, los procesos de evaluación se dividen en internos, realizados de manera autónoma por las instituciones, y externos, impulsados por el Ministerio de Educación Nacional y el ICFES, que es la entidad encargada de la evaluación educativa en el país. Estos procesos abarcan todos los niveles educativos, evaluando a estudiantes, docentes e instituciones. A continuación, se describen las principales pruebas externas:
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 a) Pruebas a estudiantes
+    p.mb-4 Los estudiantes colombianos participan en tres tipos de pruebas evaluativas, cuyos resultados son utilizados tanto por las instituciones como por el Ministerio de Educación para adoptar políticas que mejoren la calidad educativa del país.
+    p.mb-5 Pruebas Saber:
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img26.png')
+      .col-sm-12.col-lg-8
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--yellow")
+          .row(titulo="Saber 3°, 5° y 9°")
+            .col-sm-12.col-lg-12
+              p.mb-0 Estas pruebas evalúan a los estudiantes de primaria y secundaria en áreas como matemáticas, lenguaje, ciencias naturales y competencias ciudadanas. Son aplicadas por el Instituto Colombiano para la Evaluación de la Educación (ICFES).
+          .row(titulo="Saber 11")
+            .col-sm-12.col-lg-12
+              p.mb-0 Esta es una prueba obligatoria para todos los estudiantes que terminan la educación secundaria. Evalúa competencias en matemáticas, lenguaje, ciencias naturales, ciencias sociales e inglés. Es utilizada para el ingreso a la educación superior y para evaluar el nivel académico de los estudiantes al finalizar su ciclo escolar.
+          .row(titulo="Pruebas Saber Pro (anteriormente ECAES)")
+            .col-sm-12.col-lg-12
+              p.mb-0 Estas pruebas están dirigidas a estudiantes de educación superior, generalmente en los últimos semestres de su carrera. Evalúan competencias específicas de cada área del conocimiento y competencias genéricas, como la comprensión lectora, razonamiento cuantitativo, comunicación escrita y razonamiento crítico.
+          .row(titulo="Pruebas Saber T&T")
+            .col-sm-12.col-lg-12
+              p.mb-0 Estas pruebas son dirigidas a estudiantes de carreras técnicas y tecnológicas y son similares a las Saber Pro, pero adaptadas a este nivel educativo. Evalúan competencias tanto genéricas como específicas en el ámbito de la formación técnica o tecnológica.
+
+    p.mb-3 Además de estas pruebas nacionales, los estudiantes colombianos también pueden participar en evaluaciones internacionales como PISA, que comparan el desempeño de los estudiantes en diferentes países.
+    p.mb-5 Estas pruebas ayudan a monitorear el desempeño académico y permiten a las instituciones educativas, tanto públicas como privadas, diseñar políticas para mejorar la calidad de la enseñanza en el país.
+
+    .row.justify-content-start.align-items-center.mb-5
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 b) Pruebas a docentes
+    p.mb-5 En Colombia, los docentes son evaluados tanto por instituciones privadas como por el Ministerio de Educación Nacional en el sector público. Las evaluaciones de los docentes oficiales se realizan mediante:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img27.png')
+      .col-sm-12.col-lg-7
+        ul.lista-ul--color
+            li.d-flex.mb-5
+              i.fas.fa-chalkboard-teacher
+              span #[b Concursos del Ministerio de Educación Nacional:] A través del ICFES, se llevan a cabo concursos para proveer cargos en colegios oficiales. Estos concursos evalúan competencias pedagógicas y aptitudes para la enseñanza, además de incluir una prueba psicotécnica que mide habilidades como la adaptabilidad y el trabajo en equipo.
+
+            li.d-flex.mt-3
+              i.fas.fa-chalkboard-teacher
+              span #[b Evaluación periódica de competencias:] Se realizan evaluaciones periódicas para establecer procesos meritocráticos que miden la formación, desarrollo profesional y competencias de los docentes. Estas evaluaciones permiten el ascenso de grado o salarial y buscan mejorar la calidad educativa en el sector público.ión facilita la comprensión tanto de los procesos como de los resultados de la propuesta curricular?
+
+    .row.justify-content-start.align-items-center.mb-4
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 c) Pruebas a instituciones 
+    p.mb-5 Las instituciones educativas también son evaluadas de manera rigurosa para garantizar la calidad:
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-7
+        ul.lista-ul--color
+            li.d-flex.mb-5
+              i.fas.fa-chalkboard-teacher
+              span #[b Autoevaluación institucional:] Los establecimientos educativos privados deben realizar una autoevaluación anual, lo que permite al Ministerio de Educación Nacional controlar la calidad, las pensiones y matrículas. Esto aplica a colegios, jardines, instituciones de educación para adultos y proyectos de nuevos establecimientos.
+
+            li.d-flex.mt-3
+              i.fas.fa-chalkboard-teacher
+              span #[b Evaluación externa y acreditación:] Instituciones que buscan la excelencia son sometidas a procesos de evaluación externa por pares del Consejo Nacional de Acreditación (CNA). Estos procesos incluyen la revisión de áreas como infraestructura, bienestar y calidad de enseñanza, además de auditorías que verifican el cumplimiento de estándares de calidad.
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img28.png')
+
+
+
+    .row.justify-content-start.align-items-center.mb-4
+      .col-sm-12.col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema1/img18.svg')
+      .col-sm-12.col-lg-8
+        h4.mb-0 d) Pruebas internacionales
+
+    p.mb-5 PISA (#[i Programme for International Student Assessment]) es una evaluación internacional aplicada en Colombia cada tres años. Mide el rendimiento de estudiantes de 15 años en áreas como lectura, matemáticas y ciencias, y analiza aspectos como la motivación y las estrategias de aprendizaje. PISA permite comparar el sistema educativo colombiano con otros países y establece desafíos para mejorar la calidad educativa, tomando como referencia a naciones líderes como Finlandia, Corea y Canadá.
+
+    Separador
+    #t_3_4.titulo-segundo.color-acento-contenido
+      h2 3.4 Proceso de evaluación
+    
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img29.png', alt='')
+      .col-sm-12.col-lg-8.align-content-center  
+        .bgimg2.px-4.py-3
+          .bg4
+            SlyderF.mb-0(columnas="col-lg-12")
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Evaluación diagnóstica
+                    p.mb-0  Se realiza al inicio del proceso pedagógico y tiene como objetivo evaluar los conocimientos previos, aptitudes, expectativas y estilo de aprendizaje del estudiante. Se lleva a cabo en dos fases: durante la admisión y en la inducción del programa de formación, orientada por el instructor.
+
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Evaluación formativa
+                    p.mb-0  Se aplica durante todo el proceso de enseñanza, proporcionando retroalimentación continua y transformativa. Permite ajustar y mejorar el proceso pedagógico de manera dinámica e inmediata.
+
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Evaluación sumativa
+                    p.mb-0 Se realiza al final del proceso pedagógico para evaluar los resultados obtenidos, considerando los procesos acumulativos evaluados durante el curso. No se centra en un producto final, sino en la progresión integral del aprendizaje.
+
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Criterios de evaluación
+                    p.mb-0 Son los objetivos, logros o dominios que los aprendices deben alcanzar a lo largo de las diferentes etapas del programa. Estos criterios están directamente vinculados a la estructura curricular.
+
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Técnicas de evaluación
+                    p.mb-0 Métodos sistematizados que el instructor emplea para recopilar información sobre el progreso de los aprendices. Ejemplos incluyen observación, talleres teóricos y pruebas prácticas.
+
+              .p-5.my-0.h-card 
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Instrumentos de evaluación
+                    p.mb-0 Herramientas utilizadas para capturar el desempeño de los estudiantes en relación con los saberes, habilidades y actitudes. Por ejemplo, fichas de observación, listas de chequeo y cuestionarios.
+
+              .p-5.my-0.h-card
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-sm-12.col-lg-12
+                    h5 Evidencias de aprendizaje
+                    p.mb-4 Son las pruebas del progreso de los estudiantes, clasificadas en:
+                    ul.lista-ul--color
+                      li.d-flex
+                        i.fas.fa-chalkboard-teacher
+                        span #[b Evidencia de conocimiento:] evalúa el dominio cognitivo, como conceptos y teorías.
+                      li.d-flex
+                        i.fas.fa-chalkboard-teacher
+                        span #[b Evidencia de proceso:] verifica el uso de técnicas y procedimientos.
+                      li.d-flex
+                        i.fas.fa-chalkboard-teacher
+                        span #[b Evidencia de producto:] consiste en la entrega de resultados finales que cumplen con los estándares de calidad.
+    p.mb-3 La evaluación del aprendizaje puede estar orientada por los objetivos educativos, competencias básicas o específicas, ejes problematizadores o logros, dependiendo de la intencionalidad del centro o instructor evaluador.
+    p.mb-5 Dentro de las características clave en la evaluación del aprendizaje, se destacan las siguientes:            
+    .row.mb-5
+      .col-sm-12.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-card-5.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img30.svg')
+          h4.text-center.mt-4 Objetividad
+          p.mb-5.text-center Se refiere a la imparcialidad que el docente evaluador debe mantener al aplicar, corregir y emitir juicios sobre las pruebas, evitando influencias externas que puedan afectar el criterio imparcial requerido.
+      .col-sm-12.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-card-5.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img31.svg')
+          h4.text-center.mt-4 Validez
+          p.mb-5.text-center Hace referencia a la correspondencia directa entre lo solicitado en la prueba y la respuesta proporcionada, asegurando una relación precisa entre las preguntas planteadas y las respuestas correctas. 
+      .col-sm-12.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-card-5.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img32.svg')
+          h4.text-center.mt-4 Confiabilidad
+          p.mb-0.text-center  Denota el nivel de consistencia de la prueba, es decir, la seguridad de que los resultados obtenidos reflejan fielmente lo que se pretendía evaluar, manteniendo una relación coherente entre lo solicitado y lo realizado por el aprendiz.
+      .col-sm-12.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-card-5.mb-cus
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/tema3/img33.svg')
+          h4.text-center.mt-4 Pertinencia
+          p.mb-0.text-center Implica la adecuación y oportunidad de las técnicas, tiempos e instrumentos de evaluación utilizados, en relación con los criterios, contenidos y competencias que se desean medir.
+    
+
+    
+    Separador
+    #t_3_5.titulo-segundo.color-acento-contenido
+      h2 3.5 Planes de mejoramiento
+
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-7
+        .row.mb-4
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img(src='@/assets/curso/temas/tema3/img35.svg')
+          .col-sm-12.col-lg-10
+            p.mb-0 Los planes de mejoramiento se implementan cuando los resultados de aprendizaje no alcanzan los estándares establecidos en los programas de formación. Con base en las evaluaciones, el instructor reprograma al estudiante en actividades complementarias, asegurando un proceso justo y objetivo.
+        .br1
+          p.mb-0.py-4.px-1 Estos planes se acuerdan entre el aprendiz y el instructor, y pueden implicar la modificación de estrategias pedagógicas para motivar al estudiante y facilitar el logro de los resultados. Es un proceso crítico en la formación, ya que puede influir en aspectos como la promoción, graduación o certificación del aprendiz.
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img34.png')
+    
+    
+    .row.justify-content-center.my-5
+      .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema3/img36.png')
+      .col-sm-12.col-lg-7
+        ul.lista-ul--color
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span  Identificar los resultados de aprendizaje que el aprendiz no ha logrado alcanzar.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span  Establecer las evidencias de aprendizaje que se utilizarán para evaluar el cumplimiento de los objetivos del plan de mejoramiento.
+          li.d-flex
+            i.fas.fa-chalkboard-teacher
+            span  Contar con los soportes necesarios que demuestren la formación recibida, el seguimiento realizado, las evaluaciones aplicadas y los productos entregados por el estudiante, para presentarlos ante las autoridades educativas competentes que supervisan la ejecución de los planes de mejoramiento en el centro de formación.
+    
+    .bgimg5.mb-5
+      h3.py-1 Plan de mejoramiento disciplinario
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img.bg1
+        img.img-bloque-4.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img37.png', alt='')
+        
+      .bloque-texto-g__texto.p-4
+        p.mb-3 El plan de mejoramiento disciplinario es una medida implementada para corregir conductas, actitudes o aspectos sociales de un aprendiz tras una sanción disciplinaria, como un llamado de atención escrito o condicionamiento de matrícula. Este plan, con una duración máxima de tres meses, debe ser firmado por el aprendiz y basarse en la falta cometida, estableciendo las evidencias de cambio esperadas en su conducta.
+        p.mb-0 El instructor o coordinador designado es responsable de definir el plan, evaluar el progreso y verificar el cumplimiento de los objetivos comportamentales.
+
+    p.mb-5 El proceso pedagógico es complejo, ya que requiere la integración de diversos elementos que le otorgan dirección y solidez. Para llevarlo a cabo con éxito, es esencial que el educador reflexione sobre las realidades sociales, políticas y económicas que impactan la educación, así como sobre su propia práctica y los resultados obtenidos, no solo en términos académicos, sino también en la formación integral de los estudiantes como seres humanos.
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/tema3/img38.png')
+      .col-sm-12.col-lg-7
+        .row.mb-3
+          .col-sm-12.col-lg-2.d-none.d-lg-block
+            img(src='@/assets/curso/temas/tema3/img39.svg')
+          .col-sm-12.col-lg-10
+            p.mb-0 El análisis profundo de cada situación, tanto dentro como fuera del aula, y la capacidad de ir más allá de lo aparente son fundamentales para abordar los problemas que surgen en el proceso educativo. Además, el compromiso con la formación de ciudadanos integrales y el amor por la enseñanza son clave para fomentar procesos de aprendizaje exitosos.
+        .br1
+          p.mb-0 Junto con estas cualidades, es importante que los docentes sigan actualizándose en aspectos relevantes como la investigación científica, el bilingüismo, las competencias ciudadanas y el uso de las tecnologías (TIC y TEP) en la educación. También deben estar al tanto de las diferentes modalidades y entornos de aprendizaje emergentes, como E-learning, B-learning, M-learning y los sistemas de gestión de aprendizaje (LMS) o cursos abiertos en línea (MOOC).
 
 
 
 
 
+
+
+
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-10 
+        .bgimg1.p-4
+          p.mb-0 El éxito en la orientación del proceso pedagógico no solo depende de la habilidad técnica del docente, sino también de su capacidad para reflexionar, analizar y comprometerse con la formación integral de los estudiantes. Además, la constante actualización en métodos y tecnologías educativas es crucial para enfrentar los desafíos de la enseñanza moderna.
 
 
 

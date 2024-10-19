@@ -61,6 +61,7 @@
   padding: 5px 30px
   width: fit-content
   text-align: center
+
 .bg3
   background-color: #FFF3F1
   padding: 25px 20px
@@ -71,6 +72,10 @@
   background-color: #FCB071
 .bg6
     background: #FFF3F1
+.bg7
+  background-color: $color-secundario
+  padding: 5px 30px
+  width: 100%
 .bgimg1
   background-image: url('../assets/curso/temas/tema1/img10.svg');
   background-repeat: no-repeat
@@ -86,7 +91,6 @@
     background-position: center 
     border-radius: 20px
     height: 380px
-    display: flex
     justify-content: center
     align-content: center
     align-items: center
@@ -116,7 +120,7 @@
   padding: 10px 20px
   border: 2px solid $color-secundario
 
-.img-bloque
+.img-bloque, .img-bloque-6
   width: 56.5%;
   position: relative;
   top: -45px;
@@ -126,8 +130,13 @@
   position: relative;
   top: -45px;
   margin: auto;
-.img-bloque-3
+.img-bloque-3, .img-bloque-5
   width: 62%;
+  position: relative;
+  top: -45px;
+  margin: auto;
+.img-bloque-4
+  width: 59.5%;
   position: relative;
   top: -45px;
   margin: auto;
@@ -157,6 +166,12 @@
     height: 290px;
 .h-card-3
     height: 350px;
+.h-card-4
+    height: 250px;
+.h-card-5
+    height: 400px;
+.h-card-6
+    height: 500px;
 /*CUSTOM COMPONENTS*/
 .tarjeta--boton
     background-color: $color-secundario;
@@ -241,6 +256,8 @@
   border-color: $color-primario
 .tarjeta--yellow
   background-color: #FFE7B7 !important
+.tarjeta--yellow.acordion__activo
+  background-color: #FEE7D4 !important
 .tabs-a__tab 
     background-color: $color-acento-contenido
 .img-infografica__item, .img-infografica-b__item 
@@ -260,19 +277,26 @@
     width: 75%;
   .img-bloque-3
     width: 72.5%;
+  .img-bloque-5
+    width: 82%;
+  .img-bloque-6
+    width: 71%;
+  .img-bloque-4
+    width: 83.3%;
   .bgimg2 
     height: auto;
     display: block;
   .fix-title
     position: initial;
     left: 0px;
-  
+  .h-card-5
+    height: 450px;
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
-  .h-card, .h-card-2, .h-card-3
+  .h-card, .h-card-2, .h-card-3, .h-card-4, .h-card-5, .h-card-6
     height: auto;
   .bloque-texto-g
     padding-top: 20px !important;
