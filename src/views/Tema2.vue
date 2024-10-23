@@ -35,8 +35,10 @@
           
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema2/img4.png')
-    .bgimg5.mb-5
+    .bgimg5.mb-4
           h3.py-1 Técnicas didácticas activas
+    p.mb-3 Numerosos expertos han realizado estudios e investigaciones en torno a las técnicas didácticas activas, contribuyendo significativamente al enriquecimiento de la didáctica y a la mejora de los procesos de enseñanza-aprendizaje en el aula.
+    p.mb-5 Estas técnicas, de acuerdo con su finalidad, se clasifican en:
     .row
       .col-sm-12.col-lg-4
         .tarjeta--boton.color-primario.p-4.h-card-2.mb-cus
@@ -55,7 +57,7 @@
           .row.justify-content-center.mb-3
             .col-sm-12.col-lg-4.d-none.d-lg-block
                 img(src='@/assets/curso/temas/tema2/img12.svg')
-          p.mb-0.text-center En el caso del aprendizaje interactivo, que es guiado por el profesor o un experto, se utilizan estrategias como la exposición, ponencia, entrevista, conferencia, demostración y simulación.
+          p.mb-0.text-center Para el aprendizaje colaborativo, las técnicas incluyen estudios de caso, lluvia de ideas, juegos de rol, aprendizaje basado en problemas, paneles, debates y foros.
     
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -66,9 +68,8 @@
         
       .bloque-texto-g__texto.p-4
         p.mb-3 Una guía bien elaborada debe incluir ciertos campos clave, descritos en un formato institucional del SENA, actualizado periódicamente. Los instructores deben asegurarse de utilizar la versión más reciente para garantizar que las guías orienten adecuadamente las clases.
-        p.mb-0 La Guía de Aprendizaje se compone de dos estructuras: de forma y de fondo. La estructura de forma está determinada por el formato GFPI-F-135, que incluye la identificación del programa, proyecto, fase, resultados de aprendizaje y duración del estudio. 
-
-    p.mb-5 La estructura de fondo abarca un conjunto de actividades interdisciplinarias diseñadas para que el aprendiz comprenda, aplique y transfiera conocimientos, demostrando competencias en la resolución de problemas.
+        p.mb-3 La Guía de Aprendizaje se compone de dos estructuras: de forma y de fondo. La estructura de forma está determinada por el formato GFPI-F-135, que incluye la identificación del programa, proyecto, fase, resultados de aprendizaje y duración del estudio. 
+        p.mb-0 La estructura de fondo abarca un conjunto de actividades interdisciplinarias diseñadas para que el aprendiz comprenda, aplique y transfiera conocimientos, demostrando competencias en la resolución de problemas.
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--yellow")
       .row(titulo="Identificación de la guía")
         .col-sm-12.col-lg-12
@@ -115,27 +116,27 @@
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span a
-              span #[b Evidencia de aprendizaje:] Se redactan los enunciados que evidencian lo que el estudiante “sabe”, “sabe hacer” y “es”. Estas evidencias pueden ser de conocimiento y desempeño, permitiendo evaluar el desarrollo de las competencias.
+              span #[b Evidencia de aprendizaje:] se redactan los enunciados que evidencian lo que el estudiante “sabe”, “sabe hacer” y “es”. Estas evidencias pueden ser de conocimiento y desempeño, permitiendo evaluar el desarrollo de las competencias.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span b
-              span #[b Evidencia de desempeño:] Refleja lo que el aprendiz sabe hacer, incluyendo tanto la ejecución del proceso como el resultado obtenido. Las evidencias pueden ser reales o simuladas.
+              span #[b Evidencia de desempeño:] refleja lo que el aprendiz sabe hacer, incluyendo tanto la ejecución del proceso como el resultado obtenido. Las evidencias pueden ser reales o simuladas.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span c
-              span #[b Evidencia de conocimiento:] Demuestra lo que el aprendiz sabe en relación con los conceptos abordados en la actividad.
+              span #[b Evidencia de conocimiento:] demuestra lo que el aprendiz sabe en relación con los conceptos abordados en la actividad.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span d
-              span #[b Evidencia de producto:] Se manifiesta en el resultado obtenido de la actividad.
+              span #[b Evidencia de producto:] se manifiesta en el resultado obtenido de la actividad.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span e
-              span #[b Criterio de evaluación:] Define el grado y tipo de aprendizaje esperado, basado en conceptos, procedimientos o actitudes concretas. Estos criterios se expresan mediante indicadores o descriptores que permiten evaluar el estado de las competencias desarrolladas.
+              span #[b Criterio de evaluación:] define el grado y tipo de aprendizaje esperado, basado en conceptos, procedimientos o actitudes concretas. Estos criterios se expresan mediante indicadores o descriptores que permiten evaluar el estado de las competencias desarrolladas.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span f
-              span #[b Instrumento de evaluación:] Se mencionan las herramientas utilizadas para recopilar datos sobre los resultados de aprendizaje, los criterios de evaluación y las evidencias definidas en el diseño curricular.
+              span #[b Instrumento de evaluación:] se mencionan las herramientas utilizadas para recopilar datos sobre los resultados de aprendizaje, los criterios de evaluación y las evidencias definidas en el diseño curricular.
           ul.lista-ul--color.px-lg-5
             li.d-flex
               i.fas.fa-chalkboard-teacher

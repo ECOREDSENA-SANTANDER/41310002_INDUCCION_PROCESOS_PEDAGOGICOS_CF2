@@ -33,7 +33,7 @@
             p.mb-0 Un programa de formación en el SENA surge a partir de las necesidades del sector productivo, caracterizándose por su flexibilidad y capacidad de anticipación, cada programa, sea de formación titulada o complementaria, se basa en normas de competencia laboral elaboradas por mesas sectoriales que reúnen a representantes del sector productivo y del SENA.
         .br1
           p.mb-0 En la creación de un programa, un grupo colaborativo determina el propósito y nivel de formación, analizando tanto información interna como externa para identificar las características específicas del contexto, tendencias tecnológicas y oportunidades laborales tanto a nivel local como global.
-    
+    p.mb-5 La estructura curricular es la herramienta metodológica que organiza y sintetiza el programa de formación, incluyendo tiempos, recursos, competencias laborales, contenidos y evaluación. Esta estructura, que actúa como la columna vertebral de los procesos formativos, asegura que el programa responda a las exigencias del sector productivo y de la sociedad. 
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-10
         .cajon.color-acento-contenido.px-5.py-4
@@ -49,23 +49,23 @@
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span a
-            span Código, versión y denominación de la Norma de Competencia Laboral: espacio donde se especifican estos datos de manera clara y precisa.
+            span #[b Código, versión y denominación de la Norma de Competencia Laboral:] espacio donde se especifican estos datos de manera clara y precisa.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span b
-            span Duración estimada para el logro del aprendizaje: número de horas que, según los expertos, requiere un aprendiz para alcanzar la competencia. Se recomienda definirlas en múltiplos de diez.
+            span #[b Duración estimada para el logro del aprendizaje:] número de horas que, según los expertos, requiere un aprendiz para alcanzar la competencia. Se recomienda definirlas en múltiplos de diez.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span c
-            span Resultados de aprendizaje: se refieren a los logros (productos, respuestas, desempeños) de tipo motriz, valorativo, cognitivo y actitudinal que el aprendiz debe alcanzar durante el proceso formativo.
+            span #[b Resultados de aprendizaje:] se refieren a los logros (productos, respuestas, desempeños) de tipo motriz, valorativo, cognitivo y actitudinal que el aprendiz debe alcanzar durante el proceso formativo.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span d
-            span Conocimientos de concepto y principio: basados en los criterios de desempeño, conocimientos esenciales y rangos de aplicación de la norma.
+            span #[b Conocimientos de concepto y principio:] basados en los criterios de desempeño, conocimientos esenciales y rangos de aplicación de la norma.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span e
-            span Conocimientos de proceso: incluyen los subprocesos, procedimientos o actividades de tipo cognitivo y motriz necesarios para lograr los resultados de aprendizaje, apoyados en los conocimientos de conceptos y principios.
+            span #[b Conocimientos de proceso:] incluyen los subprocesos, procedimientos o actividades de tipo cognitivo y motriz necesarios para lograr los resultados de aprendizaje, apoyados en los conocimientos de conceptos y principios.
     
     p.mb-5 Vale la pena señalar la importancia de los Criterios de evaluación, los cuales son indicadores que determinan el nivel de logro que los aprendices deben alcanzar durante el proceso de aprendizaje y que permiten emitir un juicio formativo o sumativo. Estos criterios fomentan la autoevaluación, coevaluación y heteroevaluación a lo largo del proceso. Un criterio de evaluación puede abarcar más de un resultado de aprendizaje.
     p.mb-5.text-center Así mismo se resalta la importancia de: 
@@ -102,24 +102,24 @@
               ul.lista-ul--color.px-lg-4
                 li.d-flex
                   i.fas.fa-chalkboard-teacher
-                  span #[b Reglamento del aprendiz:] El reglamento del aprendiz en el SENA es un componente clave de la propuesta curricular que busca fomentar la convivencia pacífica en la comunidad educativa. Está estructurado en 12 capítulos, cada uno con artículos y parágrafos que detallan las normas de comportamiento y convivencia.
+                  span #[b Reglamento del aprendiz:] el reglamento del aprendiz en el SENA es un componente clave de la propuesta curricular que busca fomentar la convivencia pacífica en la comunidad educativa. Está estructurado en 12 capítulos, cada uno con artículos y parágrafos que detallan las normas de comportamiento y convivencia.
           .row(numero="2" titulo="Gestión del Conocimiento")
             .col-sm-12.col-lg-12
               p.mb-3 Relacionado con las Redes de Conocimiento, que son una iniciativa estratégica para la creación, gestión y actualización del conocimiento dentro del SENA, así como para la modernización de los programas y ambientes de formación.
               ul.lista-ul--color.px-lg-4
                 li.d-flex
                   i.fas.fa-chalkboard-teacher
-                  span #[b Redes de conocimiento:] Las redes de conocimiento del SENA son una estrategia para gestionar el conocimiento a nivel sectorial e institucional. Se apoyan en las capacidades internas como la cultura organizacional, procesos, tecnología y talento humano, y buscan actualizar diseños curriculares, desarrollar nuevos programas de formación y modernizar los ambientes de aprendizaje, todo alineado con las demandas del sector productivo y las últimas tecnologías.
+                  span #[b Redes de conocimiento:] las redes de conocimiento del SENA son una estrategia para gestionar el conocimiento a nivel sectorial e institucional. Se apoyan en las capacidades internas como la cultura organizacional, procesos, tecnología y talento humano, y buscan actualizar diseños curriculares, desarrollar nuevos programas de formación y modernizar los ambientes de aprendizaje, todo alineado con las demandas del sector productivo y las últimas tecnologías.
           .row(numero="3" titulo="Redes de Colaboración Sectorial")
             .col-sm-12.col-lg-12
               p.mb-3 Refiriéndose a las Redes de Conocimiento Sectorial, que agrupan tanto a comunidades internas del SENA como a instituciones externas, enfocadas en la investigación y desarrollo de soluciones en áreas estratégicas para el país.
               ul.lista-ul--color.px-lg-4
                 li.d-flex
                   i.fas.fa-chalkboard-teacher
-                  span #[b Redes de conocimiento sectorial SENA:] Estas redes agrupan comunidades de conocimiento internas y externas que colaboran para alcanzar objetivos comunes. Fortalecen capacidades en investigación aplicada y comunicación, compartiendo conocimientos y soluciones tanto a nivel nacional como internacional, promoviendo la innovación y el desarrollo en sectores estratégicos.
+                  span #[b Redes de conocimiento sectorial SENA:] estas redes agrupan comunidades de conocimiento internas y externas que colaboran para alcanzar objetivos comunes. Fortalecen capacidades en investigación aplicada y comunicación, compartiendo conocimientos y soluciones tanto a nivel nacional como internacional, promoviendo la innovación y el desarrollo en sectores estratégicos.
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema3/img5.png')
-    p.mb-5 ARTÍCULO 15. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO SECTORIAL SENA. De acuerdo con estos criterios establecidos en la presente Resolución, se conforman las siguientes redes de conocimiento sectorial SENA:
+    p.mb-5 #[b ARTÍCULO 15. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO SECTORIAL SENA]. De acuerdo con estos criterios establecidos en la presente Resolución, se conforman las siguientes redes de conocimiento sectorial SENA:
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-4
         ol.lista-ol--cuadro.mb-0
@@ -142,23 +142,23 @@
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 5
-            span Red de conocimiento en comercio y ventas
+            span Red de conocimiento en comercio y ventas.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 6
-            span Red de conocimiento ambiental
+            span Red de conocimiento ambiental.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 7
-            span Red de conocimiento en biotecnología
+            span Red de conocimiento en biotecnología.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 8
-            span Red de conocimiento en mecánica industrial
+            span Red de conocimiento en mecánica industrial.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 9
-            span Red de conocimiento en energía eléctrica
+            span Red de conocimiento en energía eléctrica.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 10
@@ -268,7 +268,7 @@
         p.mb-3 Están conformadas por grupos e instituciones que colaboran en torno a procesos clave como la inclusión social, el empleo, el emprendimiento y el fortalecimiento institucional.
         p.mb-3 A través de la interacción en estas redes, se genera y transfiere conocimiento, además de fomentar el aprendizaje y el desarrollo a partir de prácticas compartidas.
         p.mb-3 Estas redes institucionales estandarizan actividades, establecen reglas claras para la transferencia de conocimientos y mecanismos de interacción, con el objetivo de facilitar la comunicación y optimizar los procesos transversales, fortaleciendo así la cadena de valor institucional.
-        p.mb-0 ARTÍCULO 22. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO INSTITUCIONAL SENA. Teniendo en cuenta los criterios mencionados, se establecen las siguientes redes de conocimiento institucional SENA:
+        p.mb-0 #[b ARTÍCULO 22. CREACIÓN DE LAS PRIMERAS REDES DE CONOCIMIENTO INSTITUCIONAL SENA]. Teniendo en cuenta los criterios mencionados, se establecen las siguientes redes de conocimiento institucional SENA:
     
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-6
@@ -357,9 +357,9 @@
           p.mb-0 El Fondo Emprender tiene como propósito apoyar proyectos productivos que integren los conocimientos adquiridos por los emprendedores durante su formación. Estos proyectos se desarrollan a través de la creación de nuevas empresas productivas, que además de generar empleo, cumplan con las obligaciones legales de su constitución y aporten al bienestar económico del país.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema3/img9.png')
-      .row(titulo="Fortalecimiento de Mypes")
+      .row(titulo="Fortalecimiento de Mipymes")
         .col-sm-12.col-lg-9
-          p.mb-0 Dentro de las estrategias de la Dirección de Empleo, Trabajo y Emprendimiento se incluyó el fortalecimiento de las Mypes (Micro, Pequeñas y Medianas Empresas), brindando un mayor apoyo para su desarrollo y sostenibilidad.
+          p.mb-0 Dentro de las estrategias de la Dirección de Empleo, Trabajo y Emprendimiento se incluyó el fortalecimiento de las Mipymes (Micro, Pequeñas y Medianas Empresas), brindando un mayor apoyo para su desarrollo y sostenibilidad.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema3/img10.png')
       .row(titulo="Jóvenes Rurales Emprendedores")
@@ -465,7 +465,7 @@
           .tarjeta.color-secundario.w-100
             .p-4.mt-5
               h4.text-center Investigación científica
-              p.mb-0.text-center Es un pilar fundamental dentro del currículo del SENA, fomentando la indagación y el desarrollo del conocimiento. Es un pilar fundamental dentro del currículo del SENA, fomentando la indagación y el desarrollo del conocimiento.
+              p.mb-0.text-center Es un pilar fundamental dentro del currículo del SENA, fomentando la indagación y el desarrollo del conocimiento.
       .col-sm-12.col-lg-3.mb-cus
         .tarjeta-avatar.h-card-6
           img(src='@/assets/curso/temas/tema3/img21.png')
@@ -525,19 +525,19 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Autoevaluación")
             .col-sm-12.col-lg-12
-              p.mb-0 La autoevaluación es un proceso reflexivo en el que el estudiante, de manera autónoma, evalúa su propio desempeño utilizando criterios específicos. Representa el máximo ejercicio de autorregulación y responsabilidad en el proceso evaluativo, donde el aprendiz puede definir tanto los criterios como los juicios sobre su trabajo. En el contexto del SENA, esta práctica fomenta la capacidad de los estudiantes para valorar su progreso, lo cual es esencial para su desarrollo profesional y personal.
+              p.mb-0 Es un proceso reflexivo en el que el estudiante, de manera autónoma, evalúa su propio desempeño utilizando criterios específicos. Representa el máximo ejercicio de autorregulación y responsabilidad en el proceso evaluativo, donde el aprendiz puede definir tanto los criterios como los juicios sobre su trabajo. En el contexto del SENA, esta práctica fomenta la capacidad de los estudiantes para valorar su progreso, lo cual es esencial para su desarrollo profesional y personal.
 
           .row(numero="2" titulo="Coevaluación")
             .col-sm-12.col-lg-12
-              p.mb-0 La coevaluación es un proceso en el que pares o colegas se evalúan mutuamente, basado en el compromiso y el reconocimiento de una situación común. Este tipo de evaluación es frecuente entre grupos de estudiantes o docentes investigadores que valoran el trabajo de sus iguales. Para el SENA, la coevaluación es una herramienta colaborativa que promueve la construcción de un marco de referencia compartido y la mejora conjunta de procesos formativos.
+              p.mb-0 Es un proceso en el que pares o colegas se evalúan mutuamente, basado en el compromiso y el reconocimiento de una situación común. Este tipo de evaluación es frecuente entre grupos de estudiantes o docentes investigadores que valoran el trabajo de sus iguales. Para el SENA, la coevaluación es una herramienta colaborativa que promueve la construcción de un marco de referencia compartido y la mejora conjunta de procesos formativos.
 
           .row(numero="3" titulo="Heteroevaluación")
             .col-sm-12.col-lg-12
-              p.mb-0 En la heteroevaluación, el responsable del proceso de enseñanza evalúa a los aprendices bajo criterios establecidos previamente, sin que estos últimos tengan incidencia en la toma de decisiones sobre el resultado evaluativo. En el SENA, este tipo de evaluación es tradicional y asegura que los criterios establecidos por el instructor guíen el proceso formativo y la medición del rendimiento.
+              p.mb-0 El responsable del proceso de enseñanza evalúa a los aprendices bajo criterios establecidos previamente, sin que estos últimos tengan incidencia en la toma de decisiones sobre el resultado evaluativo. En el SENA, este tipo de evaluación es tradicional y asegura que los criterios establecidos por el instructor guíen el proceso formativo y la medición del rendimiento.
 
           .row(numero="4" titulo="Metaevaluación")
             .col-sm-12.col-lg-12
-              p.mb-0 La metaevaluación consiste en evaluar la propia evaluación para determinar su calidad y efectividad. Implica un análisis crítico de los fundamentos, los desarrollos y los impactos que tiene la evaluación en el proceso educativo. En el SENA, la metaevaluación es crucial para asegurar que los métodos evaluativos estén alineados con los objetivos curriculares y educativos, promoviendo así una mejora continua en la calidad de los procesos de enseñanza y aprendizaje.
+              p.mb-0 Consiste en evaluar la propia evaluación para determinar su calidad y efectividad. Implica un análisis crítico de los fundamentos, los desarrollos y los impactos que tiene la evaluación en el proceso educativo. En el SENA, la metaevaluación es crucial para asegurar que los métodos evaluativos estén alineados con los objetivos curriculares y educativos, promoviendo así una mejora continua en la calidad de los procesos de enseñanza y aprendizaje.
       .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema3/img24.png')
     p.mb-5 Cada uno de estos tipos de evaluación en el SENA contribuye a fortalecer un enfoque integral que no solo mide el rendimiento de los aprendices, sino que también fomenta la reflexión, la colaboración y la mejora continua en el ámbito formativo.
@@ -615,11 +615,11 @@
         ul.lista-ul--color
             li.d-flex.mb-5
               i.fas.fa-chalkboard-teacher
-              span #[b Concursos del Ministerio de Educación Nacional:] A través del ICFES, se llevan a cabo concursos para proveer cargos en colegios oficiales. Estos concursos evalúan competencias pedagógicas y aptitudes para la enseñanza, además de incluir una prueba psicotécnica que mide habilidades como la adaptabilidad y el trabajo en equipo.
+              span #[b Concursos del Ministerio de Educación Nacional:] a través del ICFES, se llevan a cabo concursos para proveer cargos en colegios oficiales. Estos concursos evalúan competencias pedagógicas y aptitudes para la enseñanza, además de incluir una prueba psicotécnica que mide habilidades como la adaptabilidad y el trabajo en equipo.
 
             li.d-flex.mt-3
               i.fas.fa-chalkboard-teacher
-              span #[b Evaluación periódica de competencias:] Se realizan evaluaciones periódicas para establecer procesos meritocráticos que miden la formación, desarrollo profesional y competencias de los docentes. Estas evaluaciones permiten el ascenso de grado o salarial y buscan mejorar la calidad educativa en el sector público.ión facilita la comprensión tanto de los procesos como de los resultados de la propuesta curricular?
+              span #[b Evaluación periódica de competencias:] se realizan evaluaciones periódicas para establecer procesos meritocráticos que miden la formación, desarrollo profesional y competencias de los docentes. Estas evaluaciones permiten el ascenso de grado o salarial y buscan mejorar la calidad educativa en el sector público.ión facilita la comprensión tanto de los procesos como de los resultados de la propuesta curricular?
 
     .row.justify-content-start.align-items-center.mb-4
       .col-sm-12.col-lg-1.d-none.d-lg-block
@@ -632,11 +632,11 @@
         ul.lista-ul--color
             li.d-flex.mb-5
               i.fas.fa-chalkboard-teacher
-              span #[b Autoevaluación institucional:] Los establecimientos educativos privados deben realizar una autoevaluación anual, lo que permite al Ministerio de Educación Nacional controlar la calidad, las pensiones y matrículas. Esto aplica a colegios, jardines, instituciones de educación para adultos y proyectos de nuevos establecimientos.
+              span #[b Autoevaluación institucional:] los establecimientos educativos privados deben realizar una autoevaluación anual, lo que permite al Ministerio de Educación Nacional controlar la calidad, las pensiones y matrículas. Esto aplica a colegios, jardines, instituciones de educación para adultos y proyectos de nuevos establecimientos.
 
             li.d-flex.mt-3
               i.fas.fa-chalkboard-teacher
-              span #[b Evaluación externa y acreditación:] Instituciones que buscan la excelencia son sometidas a procesos de evaluación externa por pares del Consejo Nacional de Acreditación (CNA). Estos procesos incluyen la revisión de áreas como infraestructura, bienestar y calidad de enseñanza, además de auditorías que verifican el cumplimiento de estándares de calidad.
+              span #[b Evaluación externa y acreditación:] instituciones que buscan la excelencia son sometidas a procesos de evaluación externa por pares del Consejo Nacional de Acreditación (CNA). Estos procesos incluyen la revisión de áreas como infraestructura, bienestar y calidad de enseñanza, además de auditorías que verifican el cumplimiento de estándares de calidad.
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema3/img28.png')
 

@@ -21,7 +21,7 @@
         |  Dos de los principios fundamentales de la Formación Profesional Integral (FPI)
     img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img2.png', alt='La figura presenta dos conceptos clave: Integralidad y Formación permanente. El primero se refiere a una formación equilibrada entre lo tecnológico y lo social, donde el obrar tecnológico se relaciona con el contexto social, económico, político y ético. El segundo concepto, Formación permanente, señala que las personas aprenden a lo largo de toda su vida mediante su interacción con los demás y el entorno productivo, sin distinción de edad o género. ')
     img.mb-5.d-sm-block.d-lg-none(src='@/assets/curso/temas/tema1/img26.svg', alt='La figura presenta dos conceptos clave: Integralidad y Formación permanente. El primero se refiere a una formación equilibrada entre lo tecnológico y lo social, donde el obrar tecnológico se relaciona con el contexto social, económico, político y ético. El segundo concepto, Formación permanente, señala que las personas aprenden a lo largo de toda su vida mediante su interacción con los demás y el entorno productivo, sin distinción de edad o género. ')
-    p.mb-5 Asimismo, la FPI promueve el desarrollo de los cuatro pilares de la competencia, tres tradicionales y uno emergente (El modelo pedagógico de la FPI en el enfoque para el desarrollo por competencias y el aprendizaje por proyectos, 2014):
+    p.mb-5 Asimismo, la FPI promueve el desarrollo de los cuatro pilares de la competencia, tres tradicionales y uno emergente (el modelo pedagógico de la FPI en el enfoque para el desarrollo por competencias y el aprendizaje por proyectos, 2014):
     .row.justify-content-center.mb-5
       .col-sm-12.col-md-6.col-lg-3
         .tarjeta.bgimg6.p-4.mb-cus
@@ -179,7 +179,7 @@
             .align-items-start
               i.fas.fa-quote-left
             .d-block
-              h4.d-block.mt-3 El aprendizaje significativo subyace a la integración constructiva entre pensamiento, sentimiento y acción lo que conduce al engrandecimiento (“empowerment”) humano.
+              h4.d-block.mt-3.text-bloque El aprendizaje significativo subyace a la integración constructiva entre pensamiento, sentimiento y acción lo que conduce al engrandecimiento (“#[i empowerment]”) humano.
               p - Joseph Novak
             .align-content-end.mb-2
               i.fas.fa-quote-right

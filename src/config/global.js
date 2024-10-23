@@ -112,12 +112,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      /*{
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -128,11 +128,11 @@ export default {
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
       },
-      /*{
+      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },*/
+      },
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
@@ -164,8 +164,6 @@ export default {
       referencia:
         'Molina Flores, B. V., Añorga Morales, Julia., Santiesteban Llerena, M. Luisa., & e-libro, Corp. (2012). Un modelo pedagógico para la superación político ideológica. La Habana: Universidad de Ciencias Pedagógicas "Enrique José́ Varona" ',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/86159',
     },
     {
       tema: '3.	Currículo y evaluación 	',
@@ -202,12 +200,101 @@ export default {
       significado:
         'Modelo educativo del SENA que busca formar personas competentes en el ámbito técnico y humano.',
     },
-    // Continúa con el mismo formato para los demás términos...
+    {
+      termino: 'Guía de aprendizaje',
+      significado:
+        'Herramienta didáctica que organiza actividades y contenidos para guiar el aprendizaje.',
+    },
+    {
+      termino: 'Heteroevaluación',
+      significado:
+        'Proceso donde el instructor evalúa el desempeño de los estudiantes bajo criterios predeterminados.',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        'Capacidad de aplicar nuevas ideas y soluciones en el entorno productivo y social.',
+    },
+    {
+      termino: 'Autoevaluación',
+      significado:
+        'Proceso en el que el estudiante reflexiona y evalúa su propio desempeño de manera autónoma.',
+    },
+    {
+      termino: 'Competencias transversales',
+      significado:
+        'Habilidades que son útiles en diversos contextos, como el emprendimiento y la responsabilidad social.',
+    },
+    {
+      termino: 'Resolución de problemas',
+      significado:
+        'Habilidad clave para enfrentar situaciones laborales y profesionales que exigen análisis crítico y soluciones prácticas.',
+    },
+    {
+      termino: 'Emprendimiento',
+      significado:
+        'Proceso de crear y desarrollar un proyecto de negocio basado en la identificación de necesidades y oportunidades.',
+    },
+    {
+      termino: 'Didáctica',
+      significado:
+        'Disciplina que estudia y aplica métodos y técnicas para facilitar el proceso de enseñanza-aprendizaje.',
+    },
+    {
+      termino: 'Evaluación diagnóstica',
+      significado:
+        'Proceso que se lleva a cabo al inicio del proceso formativo para identificar conocimientos y habilidades previas del aprendiz.',
+    },
+    {
+      termino: 'Aprendizaje colaborativo',
+      significado:
+        'Estrategia pedagógica que fomenta la construcción conjunta de conocimiento a través del trabajo en grupo.',
+    },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Botero, P., Muñoz, G. & Ospina, H. F. (2010). Las tramas de la subjetividad política y los desafíos a la formación ciudadana en jóvenes. Centro de Estudios Avanzados en Niñez y Juventud (CINDE) Universidad de Manizales.',
+    },
+
+    {
+      referencia:
+        'Comenius, J. A. (1986). Didáctica Magna. Madrid: Ediciones Akal.',
+    },
+
+    {
+      referencia:
+        'Galindo, S. & Quijano, J. E. (2012). Reconociendo nuestro entorno económico, el programa de formación y las oportunidades que nos da el SENA. Bogotá: SENA.',
+    },
+
+    {
+      referencia:
+        'Novak, J.D. & Gowin, D.B. (1988). Aprendiendo a aprender. Traducción al español del original Learning how to learn. Barcelona: Martínez Roca.',
+    },
+
+    {
+      referencia:
+        'Páez, D. L. (2012). El modelo pedagógico de la formación profesional integral en el enfoque para el desarrollo de competencias y el aprendizaje por proyectos. SENA.',
+    },
+
+    {
+      referencia:
+        'Rendón, D.L. & Moreno, L. A. (2012). Lineamientos institucionales éticos.Bogotá: SENA.',
+    },
+
+    {
+      referencia:
+        'SENA. (2011). Lineamientos de planeación operativa 2012. Bogotá: SENA.',
+    },
+
+    {
+      referencia:
+        'Torres, C. (2002). El juego como estrategia de aprendizaje en el aula.CDCHT.',
+    },
+
+    {
+      referencia:
+        'Becerra, M. (s.f.). El debate. En Aprendizaje en el SENA. Estrategias didácticas.',
     },
   ],
   creditos: [
