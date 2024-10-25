@@ -160,12 +160,6 @@ export default {
         'https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1669-32482008000200003&lng=es&tlng=en.',
     },
     {
-      tema: '2.	Métodos y recursos didácticos en el SENA	',
-      referencia:
-        'Molina Flores, B. V., Añorga Morales, Julia., Santiesteban Llerena, M. Luisa., & e-libro, Corp. (2012). Un modelo pedagógico para la superación político ideológica. La Habana: Universidad de Ciencias Pedagógicas "Enrique José́ Varona" ',
-      tipo: 'Libro',
-    },
-    {
       tema: '3.	Currículo y evaluación 	',
       referencia:
         'Diseño curricular para la formación metodológica de asesores de empresa con base a competencias laborales. (2002). Bogotá SENA.',
