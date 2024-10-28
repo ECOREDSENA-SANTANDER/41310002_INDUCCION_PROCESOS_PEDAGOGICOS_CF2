@@ -179,7 +179,7 @@
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 13
-            span Red de conocimiento en informática, diseño y desarrollo de software.
+            span Red de conocimiento en informática, diseño y desarrollo de #[i software].
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 14
@@ -619,7 +619,7 @@
 
             li.d-flex.mt-3
               i.fas.fa-chalkboard-teacher
-              span #[b Evaluación periódica de competencias:] se realizan evaluaciones periódicas para establecer procesos meritocráticos que miden la formación, desarrollo profesional y competencias de los docentes. Estas evaluaciones permiten el ascenso de grado o salarial y buscan mejorar la calidad educativa en el sector público.ión facilita la comprensión tanto de los procesos como de los resultados de la propuesta curricular?
+              span #[b Evaluación periódica de competencias:] se realizan evaluaciones periódicas para establecer procesos meritocráticos que miden la formación, desarrollo profesional y competencias de los docentes. Estas evaluaciones permiten el ascenso de grado o salarial y buscan mejorar la calidad educativa en el sector público.
 
     .row.justify-content-start.align-items-center.mb-4
       .col-sm-12.col-lg-1.d-none.d-lg-block
@@ -799,7 +799,7 @@
           .col-sm-12.col-lg-10
             p.mb-0 El análisis profundo de cada situación, tanto dentro como fuera del aula, y la capacidad de ir más allá de lo aparente son fundamentales para abordar los problemas que surgen en el proceso educativo. Además, el compromiso con la formación de ciudadanos integrales y el amor por la enseñanza son clave para fomentar procesos de aprendizaje exitosos.
         .br1
-          p.mb-0 Junto con estas cualidades, es importante que los docentes sigan actualizándose en aspectos relevantes como la investigación científica, el bilingüismo, las competencias ciudadanas y el uso de las tecnologías (TIC y TEP) en la educación. También deben estar al tanto de las diferentes modalidades y entornos de aprendizaje emergentes, como E-learning, B-learning, M-learning y los sistemas de gestión de aprendizaje (LMS) o cursos abiertos en línea (MOOC).
+          p.mb-0 Junto con estas cualidades, es importante que los docentes sigan actualizándose en aspectos relevantes como la investigación científica, el bilingüismo, las competencias ciudadanas y el uso de las tecnologías (TIC y TEP) en la educación. También deben estar al tanto de las diferentes modalidades y entornos de aprendizaje emergentes, como #[i E-learning, B-learning, M-learning] y los sistemas de gestión de aprendizaje (LMS) o cursos abiertos en línea (MOOC).
 
 
 
