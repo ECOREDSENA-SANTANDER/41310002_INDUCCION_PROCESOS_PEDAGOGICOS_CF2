@@ -191,7 +191,7 @@
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 16
-            span Red de conocimiento textil, confección diseño y moda.
+            span Red de conocimiento textil, confección, diseño y moda.
           li.d-flex.mb-3
             .lista-ol--cuadro__vineta
               span 17
@@ -569,7 +569,7 @@
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-5
         .cajon.color-acento-contenido.p-4.mb-0
-          p.mb-0.text-center Nota: actividad solo de autoanálisis frente al tema
+          p.mb-0.text-center Nota: actividad solo de autoanálisis frente al tema.
     p.mb-5 Todo esto resalta la importancia de que la evaluación no funcione de manera aislada, sino que esté alineada con la propuesta curricular y sea analizada críticamente a través de la metaevaluación. Aunque esta práctica es poco frecuente debido a enfoques limitados sobre la evaluación, es crucial impulsarla. Muchas prácticas evaluativas, especialmente en la educación superior, han permanecido sin revisión crítica durante décadas, llevándose a cabo de manera rutinaria y sin considerar sus verdaderos efectos (Torres, 2012).
     .bgimg5.mb-4
       h3.py-1 Evaluación en Colombia

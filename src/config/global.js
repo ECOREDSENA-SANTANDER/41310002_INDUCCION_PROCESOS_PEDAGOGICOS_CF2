@@ -155,7 +155,7 @@ export default {
       tema: '1.1.	Formación para el trabajo	',
       referencia:
         'Alvarado, Sara Victoria, Ospina, Héctor Fabio, Botero, Patricia, & Muñoz, Germán. (2008). Las tramas de la subjetividad política y los desafíos a la formación ciudadana en jóvenes. Revista argentina de sociología, 6(11), 19-43. Recuperado en 30 de septiembre de 2024.',
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link:
         'https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1669-32482008000200003&lng=es&tlng=en.',
     },
@@ -273,7 +273,7 @@ export default {
 
     {
       referencia:
-        'Rendón, D.L. & Moreno, L. A. (2012). Lineamientos institucionales éticos.Bogotá: SENA.',
+        'Rendón, D.L. & Moreno, L. A. (2012). Lineamientos institucionales éticos. Bogotá: SENA.',
     },
 
     {
@@ -283,7 +283,7 @@ export default {
 
     {
       referencia:
-        'Torres, C. (2002). El juego como estrategia de aprendizaje en el aula.CDCHT.',
+        'Torres, C. (2002). El juego como estrategia de aprendizaje en el aula. CDCHT.',
     },
 
     {
@@ -339,12 +339,12 @@ export default {
         },
         {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrolladora <i>full-stack</i>',
+          cargo: 'Desarrolladora <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrolladora <i>full-stack</i> junior',
+          cargo: 'Desarrolladora <i>full stack</i> junior',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -360,12 +360,12 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

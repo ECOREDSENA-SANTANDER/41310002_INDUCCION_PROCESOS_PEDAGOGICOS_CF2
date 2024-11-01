@@ -179,7 +179,7 @@
             .align-items-start
               i.fas.fa-quote-left
             .d-block
-              h4.d-block.mt-3.text-bloque El aprendizaje significativo subyace a la integración constructiva entre pensamiento, sentimiento y acción lo que conduce al engrandecimiento (“#[i empowerment]”) humano.
+              h4.d-block.mt-3.text-bloque El aprendizaje significativo subyace a la integración constructiva entre pensamiento, sentimiento y acción, lo que conduce al engrandecimiento (“#[i empowerment]”) humano.
               p - Joseph Novak
             .align-content-end.mb-2
               i.fas.fa-quote-right
