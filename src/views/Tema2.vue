@@ -116,7 +116,7 @@
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span a
-              span #[b Evidencia de aprendizaje:] se redactan los enunciados que evidencian lo que el estudiante “sabe”, “sabe hacer” y “es”. Estas evidencias pueden ser de conocimiento y desempeño, permitiendo evaluar el desarrollo de las competencias.
+              span #[b Evidencia de aprendizaje:] se redactan los enunciados que evidencian lo que el estudiante “sabe”, “sabe hacer” y “es”. Estas evidencias pueden ser de conocimiento, producto y desempeño, permitiendo evaluar el desarrollo de las competencias.
             li.d-flex.mb-3
               .lista-ol--cuadro__vineta
                 span b
